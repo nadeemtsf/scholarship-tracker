@@ -2,10 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Scholarships — Nadim",
+  title: "The “Get Me Out of Here” Initiative",
   description: "Your applications, documents and next steps. All in one place.",
   manifest: "/manifest.webmanifest",
-  appleWebApp: { capable: true, title: "Scholarships", statusBarStyle: "default" },
+  appleWebApp: { capable: true, title: "The Initiative", statusBarStyle: "default" },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

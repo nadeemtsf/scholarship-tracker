@@ -1,4 +1,4 @@
-# Scholarships — Nadim
+# The “Get Me Out of Here” Initiative
 
 Private, persistent application workspace. Live data is stored in D1 and shared across devices. Application records are separate from source and survive deployments.
 
