@@ -1,0 +1,58 @@
+import {createRequire} from 'node:module';
+import fs from 'node:fs';
+const require=createRequire('C:/Users/thebe/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/package.json');
+const {chromium}=require('playwright');
+const assert=(ok,message)=>{if(!ok)throw new Error(message);console.log('PASS',message);};
+fs.mkdirSync('outputs',{recursive:true});
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+try{
+ const context=await browser.newContext({viewport:{width:1440,height:1050}}),page=await context.newPage();const errors=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ const base='http://127.0.0.1:5173';
+ const anon=await browser.newContext();assert((await anon.request.get(base+'/api/workspace')).status()===401,'anonymous data access rejected');await anon.close();
+ await page.goto(base+'/signin-with-chatgpt?return_to=/',{timeout:120000});
+ await page.getByRole('heading',{name:'Your applications',exact:true}).waitFor();
+ await page.getByRole('heading',{name:'France Excellence',exact:true}).waitFor({timeout:60000});
+ await page.screenshot({path:'outputs/desktop.png',fullPage:true});
+ const data=await (await context.request.get(base+'/api/workspace')).json();
+ for(const p of data.projects.filter(p=>p.title==='QA scholarship'&&!p.archived)){await context.request.post(base+'/api/workspace',{data:{action:'edit',id:p.id,expectedVersion:p.version,patch:{archived:true}}});}
+ await page.goto(base);await page.getByRole('heading',{name:'France Excellence',exact:true}).waitFor();
+ assert(data.projects.filter(p=>p.title!=='QA scholarship').length===9,'nine initial projects loaded');
+ assert(data.projects.find(p=>p.id==='france-excellence').programs.length===6,'original six choices preserved');
+ assert(data.projects.find(p=>p.id==='maastricht-brightlands').status!=='Accepted','previous Maastricht offer not presented as renewed admission');
+ await page.getByRole('button',{name:'Add scholarship',exact:true}).click();
+ const editor=page.locator('.editor-dialog');await editor.getByLabel('Scholarship name').fill('QA scholarship');await editor.getByLabel('Institution',{exact:true}).fill('Test institution');await editor.getByLabel('Country',{exact:true}).fill('France');await editor.getByLabel('Next step',{exact:true}).fill('Check persistence');await editor.getByRole('button',{name:'Save application'}).click();
+ const sheet=page.locator('.detail-dialog');await sheet.getByRole('heading',{name:'QA scholarship',exact:true}).waitFor();
+ await sheet.getByRole('textbox',{name:'New task',exact:true}).fill('Request signed certificate');
+ await sheet.getByRole('combobox',{name:'Task type'}).selectOption('Document');await sheet.locator('.add-task').getByRole('button',{name:'Add',exact:true}).click();
+ const task=sheet.getByRole('button',{name:'Complete Request signed certificate',exact:true});await task.waitFor();await task.click();await sheet.getByRole('button',{name:'Reopen Request signed certificate',exact:true}).waitFor();
+ assert(true,'create scholarship, add document task, mark complete');
+ await sheet.getByRole('combobox',{name:'Application status'}).selectOption('Awaiting reply');
+ await page.waitForFunction(()=>document.querySelector('.detail-dialog select')?.value==='Awaiting reply');
+ // Wait for save to finish before testing a second user change.
+ await page.waitForFunction(()=>!document.querySelector('.detail-dialog select')?.disabled);
+ await sheet.getByRole('textbox',{name:'New progress note'}).fill('Supervisor confirmed the certificate.');await sheet.getByRole('button',{name:'Add note',exact:true}).click();await sheet.locator('.notes').filter({hasText:'Supervisor confirmed the certificate.'}).waitFor();
+ await page.reload();await page.locator('.detail-dialog h2').filter({hasText:'QA scholarship'}).waitFor({timeout:60000});
+ let current=(await (await context.request.get(base+'/api/workspace')).json()).projects.find(p=>p.title==='QA scholarship'&&!p.archived);
+ assert(current.tasks[0].done&&current.status==='Awaiting reply'&&current.notes.includes('Supervisor confirmed'),'changes persist through reload');
+ const second=await browser.newContext({storageState:await context.storageState(),viewport:{width:390,height:844},isMobile:true,deviceScaleFactor:2,hasTouch:true});
+ const phone=await second.newPage();await phone.goto(base);await phone.getByRole('heading',{name:'QA scholarship',exact:true}).waitFor();assert(true,'second device receives shared data');
+ const mcp=async(name,args)=>{const r=await context.request.post(base+'/mcp',{data:{jsonrpc:'2.0',id:1,method:'tools/call',params:{name,arguments:args}}});return r.json();};
+ const listed=await mcp('list_scholarships',{});assert(!listed.result.isError,'agent can read compact scholarship status');
+ const result=await mcp('update_scholarship',{id:current.id,expected_version:current.version,patch:{nextStep:'Collect the official signed copy'}});assert(!result.result.isError,'agent updates the same shared data');
+ const stale=await context.request.post(base+'/api/workspace',{data:{action:'edit',id:current.id,expectedVersion:current.version,patch:{nextStep:'Stale edit'}}});assert(stale.status()===409,'stale device edits rejected rather than overwriting progress');
+ current=(await (await context.request.get(base+'/api/workspace')).json()).projects.find(p=>p.id===current.id);
+ assert(current.nextStep==='Collect the official signed copy','newer agent update preserved');
+ const invalid=await context.request.post(base+'/api/workspace',{data:{action:'edit',id:current.id,expectedVersion:current.version,patch:{links:[{id:'bad',title:'Bad URL',url:'javascript:alert(1)'}]}}});assert(invalid.status()===400,'unsafe link rejected');
+ const schema=await context.request.post(base+'/mcp',{data:{jsonrpc:'2.0',id:3,method:'tools/list'}});assert((await schema.json()).result.tools.length===7,'seven compact agent tools exposed');
+ await context.request.post(base+'/api/workspace',{data:{action:'edit',id:current.id,expectedVersion:current.version,patch:{archived:true}}});
+ await phone.reload();await phone.getByRole('heading',{name:'France Excellence',exact:true}).waitFor();
+ assert(await phone.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'mobile overview has no horizontal overflow');
+ await phone.screenshot({path:'outputs/mobile.png',fullPage:true});
+ await phone.getByRole('heading',{name:'France Excellence',exact:true}).click();await phone.locator('.detail-dialog h2').filter({hasText:'France Excellence'}).waitFor();
+ await phone.screenshot({path:'outputs/mobile-detail.png'});
+ assert(await phone.locator('.detail-dialog').evaluate(e=>e.scrollWidth<=e.clientWidth),'mobile detail has no horizontal overflow');
+ assert(errors.length===0,'no uncaught browser errors: '+errors.join('; '));
+ await second.close();await context.close();
+ console.log('QA_COMPLETE');
+}finally{await browser.close();}
