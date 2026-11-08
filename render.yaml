@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: scholarship-tracker
+    runtime: docker
+    repo: https://github.com/nadeemtsf/scholarship-tracker
+    branch: main
+    plan: free
+    healthCheckPath: /
+    autoDeploy: true
