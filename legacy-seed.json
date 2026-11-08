@@ -1,0 +1,2400 @@
+{
+  "exportedAt": "2026-11-08T10:18:05.993Z",
+  "projects": [
+    {
+      "title": "EURECOM · Eiffel",
+      "institution": "EURECOM",
+      "country": "France",
+      "program": "MSc Computer Science · Data Science",
+      "cycle": "2027–2028",
+      "status": "On hold",
+      "deadline": "2026-11-15",
+      "deadlineNote": "Official EURECOM page: Eiffel preselection must be submitted BEFORE 15 November 2026. Aim for 14 November. Admission application must be complete in the first session.",
+      "nextStep": "Removed from active shortlist: reconsider only with confirmed full tuition funding plus living support.",
+      "notes": "Programme application started. Tailored recommendations drafted for Nael, Wael and Basil; Basil's shortened. Admission, funding and submission remain unconfirmed. Attendance depends on funding.\n\nVerified 27 October: the detailed-guide and scholarship-dependent fee/declaration enquiry was SENT on 26 October to admission@eurecom.fr (subject Baboun_EURECOM/Eiffel Application 2027). No reply found in the checked thread. Official page gives a separate preselection process before 15 November. Fee treatment and complete application submission remain unconfirmed.\n\n29 October reply from Guillaume De Lemos, read 30 October: guide and declaration received. Programme admission must be completed/submitted online before emailing Eiffel preselection to admission@eurecom.fr; subject First Name Last Name - EURECOM/Eiffel 2027. Deadline 15 November 2026; student information form also required: https://forms.gle/GaBMY2P1eYhX8jDW8 . One to three academic/professional recommendations. Official certificate confirming entire degree taught in English is accepted as institutional English evidence. French evidence only if applicable. All documents English/French or certified translation.\n\nFunding clarification: EURECOM explicitly does NOT grant full tuition waiver to Eiffel recipients. Partial EURECOM Excellence reduction may be combined; €1,000 deposit mandatory in all cases. Financial declaration acknowledges tuition obligation; admission offer may be declined depending on funding. Full funding not secured.\n\n30 October — user decision: drop EURECOM unless a verified full ride is available. Archived from active shortlist; existing drafts/correspondence preserved. Official Excellence Scholarship offers up to €9,000 against €18,000 MSc tuition, leaving at least €9,000 tuition even at the maximum award. No verified full-tuition-plus-living route identified for this standalone Data Science MSc. Eiffel does not waive its fees; deposit remains mandatory. No withdrawal email sent or admissions account changed.",
+      "pinned": false,
+      "archived": true,
+      "tasks": [
+        {
+          "id": "eur-ref",
+          "title": "Tailored recommendation drafts prepared",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "eur-admit",
+          "title": "Complete programme application",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "eur-letters",
+          "title": "Obtain approved / signed recommendations",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "eur-mot",
+          "title": "Finish motivation / professional project",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "eur-eiffel",
+          "title": "Receive and review Eiffel preselection guide",
+          "done": true,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "eur-fees",
+          "title": "Confirm Eiffel tuition/deposit policy (tuition payable; €1,000 deposit mandatory)",
+          "done": true,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "eur-enquiry-sent",
+          "title": "Send Eiffel guide and tuition/declaration enquiry",
+          "done": true,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "eur-passport",
+          "title": "Passport valid through planned mobility",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "eur-transcripts",
+          "title": "Official transcripts for all higher education years",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "eur-diplomas",
+          "title": "Higher education diplomas showing specialisation and award date",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "eur-ranking",
+          "title": "Official ranking, honours, cohort position and class-size evidence",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "eur-cv",
+          "title": "Detailed tailored CV (maximum 2 pages; English/French)",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "eur-english",
+          "title": "English evidence: accepted test or official fully-English MOI certificate",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "eur-charter",
+          "title": "Sign EURECOM candidate declaration and commitment charter",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "eur-form",
+          "title": "Complete student information form",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "eur-send",
+          "title": "Email complete Eiffel dossier after completing programme application",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "portal",
+          "title": "Admissions portal",
+          "url": "https://admission.eurecom.fr/"
+        },
+        {
+          "id": "eur-call",
+          "title": "Official Eiffel procedure and deadline",
+          "url": "https://www.eurecom.fr/fr/les-formations/bourses"
+        },
+        {
+          "id": "eur-mail",
+          "title": "Sent guide / fee enquiry",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a176cb56b8b115b"
+        },
+        {
+          "id": "eur-reply",
+          "title": "29 October reply, funding clarification and guide attachments",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a1879220e3d7a75"
+        },
+        {
+          "id": "eur-student-form",
+          "title": "Eiffel student information form",
+          "url": "https://forms.gle/GaBMY2P1eYhX8jDW8"
+        }
+      ],
+      "programs": [],
+      "id": "eurecom-eiffel",
+      "version": 4,
+      "updatedAt": "2026-10-30T13:45:11.277Z"
+    },
+    {
+      "title": "Rennes · Eiffel",
+      "institution": "Université de Rennes",
+      "country": "France",
+      "program": "Cloud and Network Infrastructures · M1 local route",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "2026-11-06",
+      "deadlineNote": "Confirmed by registration/workflow emails of 23 October and the official 2027 call: complete and correct all uploads by 6 November 2026, 23:59 (France).",
+      "nextStep": "Pending upload — final documents prepared; obtain Nael's signature, confirm the programme outline, upload final files and submit when portal access is restored, before 6 November.",
+      "notes": "Career plan and recommendation drafts developed. Intended route is local two-year study, not EIT mobility. Curriculum-reference upload needed care because websites were unavailable. No scholarship submission or nomination confirmed.\n\nVerified 27 October: the preliminary portal/workflow was created on 23 October, which is not confirmation that final submission is complete. The programme-outline enquiry was sent 26 October to dari-beaulieu@univ-rennes1.fr. Official call and account emails give the 6 November deadline.\n\nDocument checklist reconciled 30 October against the Mobility-Online upload page. The earlier portal screenshot showed the first six upload rows checked, but the CV has since been revised and must be replaced or rechecked before final submission.\n\n30 October: Pending upload/submission. User reports portal/website inaccessible. Final CV, career plan and Nael recommendation draft prepared; signed recommendation and final upload checks remain outstanding. No submission confirmed.",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "ren-passport",
+          "title": "Passport or identity-card copy",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ren-cv",
+          "title": "Upload final tailored CV (1–2 pages; replace earlier version)",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ren-qualifications",
+          "title": "Qualifications and ranking evidence (single PDF, if ranking is available)",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ren-transcripts",
+          "title": "Transcripts for the last three years (single PDF)",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ren-plan",
+          "title": "Career plan",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ren-language",
+          "title": "Proof of language proficiency",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ren-outline",
+          "title": "Outline of the chosen diploma / training mockup (Done but Need to make sure the one we got is the correct one cuz it might be old)",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ren-sign",
+          "title": "Signed and dated letter of recommendation",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ren-final",
+          "title": "Check every final file in Mobility-Online",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "ren-submit",
+          "title": "Submit Eiffel pre-application",
+          "done": false,
+          "due": "2026-11-06",
+          "category": "Task"
+        },
+        {
+          "id": "ren-portal-created",
+          "title": "Create preliminary application account / workflow",
+          "done": true,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "ren-outline-email",
+          "title": "Send enquiry about the CNI programme outline",
+          "done": true,
+          "due": "",
+          "category": "Contact"
+        }
+      ],
+      "links": [
+        {
+          "id": "cni",
+          "title": "CNI programme",
+          "url": "https://istic.univ-rennes.fr/en/highlights/focus-masters-cloud-and-network-infrastructures-cni"
+        },
+        {
+          "id": "ren-call",
+          "title": "Official Eiffel 2027 call",
+          "url": "https://www.univ-rennes.fr/programme-de-bourses-france-excellence-eiffel"
+        },
+        {
+          "id": "ren-deadline-mail",
+          "title": "Workflow and deadline confirmation",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a1694a31dbc6d1d"
+        },
+        {
+          "id": "ren-portal",
+          "title": "Mobility-Online login",
+          "url": "https://www.service4mobility.com/europe/LoginServlet?identifier=RENNES01&sprache=en"
+        }
+      ],
+      "programs": [],
+      "id": "rennes-eiffel",
+      "version": 8,
+      "updatedAt": "2026-10-30T13:38:08.007Z"
+    },
+    {
+      "title": "Grenoble · CCDI M2",
+      "institution": "Université Grenoble Alpes / Grenoble INP–Ensimag",
+      "country": "France",
+      "program": "MoSIG M2 · Cloud Computing & Data Infrastructures",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "",
+      "deadlineNote": "Checked 29 Oct 2026: CCDI uses the MoSIG/Ensimag admissions route. FSA opens January 2027; visa applicants strongly advised by end March. Mandatory FSA cutoff before 30 March 2027 applies specifically to Etudes en France applicants. Separate universal M2 closing date not verified.",
+      "nextStep": "Ask for a transcript/course-based direct-M2 assessment, then apply if eligible.",
+      "notes": "One of the six ORIGINAL France Excellence choices, explicitly retained by Nadim. This card tracks programme admission; funding is tracked separately under France Excellence. No admission application submission or offer is confirmed. A four-year degree is not automatic M1 equivalence; obtain an individual assessment. ",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "o3-entry",
+          "title": "Confirm 2027 entry requirements / course language",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "o3-letter",
+          "title": "Prepare tailored motivation letter and academic documents",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "o3-apply",
+          "title": "Submit programme admission application",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "official",
+          "title": "Official programme / admission information",
+          "url": "https://mosig-m2-592ef6.gricad-pages.univ-grenoble-alpes.fr/ccdi/"
+        },
+        {
+          "id": "deadline-audit-20261029-0",
+          "title": "MoSIG/Ensimag admission calendar",
+          "url": "https://relint.imag.fr/MainEn/Admission"
+        }
+      ],
+      "programs": [],
+      "id": "49a33fac-826f-4f66-8821-0235fb0f96ed",
+      "version": 2,
+      "updatedAt": "2026-10-29T19:51:36.883Z"
+    },
+    {
+      "title": "France · additional programme research",
+      "institution": "Research pool outside the original six",
+      "country": "France",
+      "program": "Proposed alternatives from the 27 October profile review",
+      "cycle": "2027–2028",
+      "status": "Researching",
+      "deadline": "",
+      "deadlineNote": "This card is a research pool, not one programme with one deadline. Checked 29 Oct 2026: Nantes Smart Computing graduate application platform closes 15 March 2027 (route/level dependent); DAKAI at Universite Jean Monnet lists non-EU applications by 31 March for its September 2027 first M1 intake. Other leads retain individual unconfirmed calendars.",
+      "nextStep": "Resolve Nantes equivalence, SLCD/Clermont English study, and fee/delivery questions before choosing any replacements.",
+      "notes": "These are proposed research leads, not confirmed admission applications. The original six France Excellence choices are unchanged. Rennes CNI and IP Paris PDS are already tracked separately. This pool preserves the other 17 programme leads so they remain accessible on phone. Priority order and caveats come from the saved Expanded Profile and Programme Review dated 27 October 2026. Published programme dates often still concern 2026; do not reuse them as 2027 deadlines. No new enquiries have been sent during this tracker audit.",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "research-nantes",
+          "title": "Ask Nantes for M2 equivalence and confirm Al-Quds priority route",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "research-english",
+          "title": "Confirm SLCD and Clermont complete English pathways",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "research-fees",
+          "title": "Resolve DAKAI / 2IS remaining fees and CNAM teaching mode",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "research-select",
+          "title": "Choose which proposed programmes to pursue",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "nantes",
+          "title": "Nantes Smart Computing",
+          "url": "https://sciences-techniques.univ-nantes.fr/formations/masters/graduate-programme-smart-computing-master-level"
+        },
+        {
+          "id": "slcd",
+          "title": "Côte d’Azur SLCD",
+          "url": "https://univ-cotedazur.fr/formation/offre-de-formation/parcours-de-master/master-informatique-m1-m2-parcours-systemes-logiciels-et-calculs-distribues-slcd"
+        },
+        {
+          "id": "clermont",
+          "title": "Clermont international CS",
+          "url": "https://www.isima.fr/en/study-at-isima/"
+        },
+        {
+          "id": "dakai",
+          "title": "DAKAI admission",
+          "url": "https://ci.mines-stetienne.fr/dakai/admission/"
+        },
+        {
+          "id": "2is",
+          "title": "Toulouse 2IS FAQ",
+          "url": "https://miage.ut-capitole.fr/accueil/international/master-innovative-information-systems-2is/faq-master-2is"
+        }
+      ],
+      "programs": [
+        {
+          "id": "research-0",
+          "name": "CNAM — Computer Networks and IoT Systems",
+          "level": "M1",
+          "status": "Alternative entry level; clarify teaching mode"
+        },
+        {
+          "id": "research-1",
+          "name": "Clermont Auvergne / ISIMA — International Computer Science",
+          "level": "M1",
+          "status": "Confirm complete English M1 and 2027 syllabus"
+        },
+        {
+          "id": "research-2",
+          "name": "Côte d’Azur — Software Systems and Distributed Computing (SLCD)",
+          "level": "M1 / M2",
+          "status": "Confirm English-only course plan"
+        },
+        {
+          "id": "research-3",
+          "name": "Nantes — Smart Computing",
+          "level": "M2",
+          "status": "Assess equivalence; Al-Quds scholarship priority"
+        },
+        {
+          "id": "research-4",
+          "name": "Côte d’Azur — Ubinet",
+          "level": "M2",
+          "status": "Assess four-year-degree entry / 2027 intake"
+        },
+        {
+          "id": "research-5",
+          "name": "Jean Monnet / Mines Saint-Étienne — DAKAI",
+          "level": "M1",
+          "status": "2027 intake; clarify additional programme charge"
+        },
+        {
+          "id": "research-6",
+          "name": "Toulouse Capitole — Innovative Information Systems (2IS)",
+          "level": "M1",
+          "status": "Strong transcript fit; resolve fee treatment"
+        },
+        {
+          "id": "research-7",
+          "name": "IP Paris — Computer Science for Networks",
+          "level": "M1",
+          "status": "Ambitious addition; distinct from PDS"
+        },
+        {
+          "id": "research-8",
+          "name": "Sorbonne — DIGIT, Networks route",
+          "level": "M1",
+          "status": "English alternative to investigate; not SAR replacement"
+        },
+        {
+          "id": "research-9",
+          "name": "Paris-Saclay — Data, Knowledge and Hybrid AI (DKAI)",
+          "level": "M1",
+          "status": "Selective research/data alternative"
+        },
+        {
+          "id": "research-10",
+          "name": "CNAM — AI for Connected Industries",
+          "level": "M1",
+          "status": "Clarify on-site / remote delivery"
+        },
+        {
+          "id": "research-11",
+          "name": "Avignon — AI for Connected Industries",
+          "level": "M1",
+          "status": "Confirm whole-course English and in-person delivery"
+        },
+        {
+          "id": "research-12",
+          "name": "UPHF — IT for Smart and Sustainable Mobility",
+          "level": "M1",
+          "status": "Hybrid delivery conflicts with scholarship rule"
+        },
+        {
+          "id": "research-13",
+          "name": "Brest — SIIA by Research",
+          "level": "M2",
+          "status": "Needs M1 equivalence, C1 English and local supervisor"
+        },
+        {
+          "id": "research-14",
+          "name": "Rennes — SIF research master's",
+          "level": "M1 / M2",
+          "status": "Clarify English route and research preparation"
+        },
+        {
+          "id": "research-15",
+          "name": "Paris-Saclay — DiPaC direct entry",
+          "level": "M2",
+          "status": "Low-priority reach; equivalence / preparation concerns"
+        },
+        {
+          "id": "research-16",
+          "name": "ENS de Lyon — Concepts and Applications of Computer Science",
+          "level": "M1",
+          "status": "Low-priority theoretical research reach"
+        }
+      ],
+      "id": "e4b7d274-6642-4136-a2c8-96d6d5983241",
+      "version": 2,
+      "updatedAt": "2026-10-29T19:51:34.951Z"
+    },
+    {
+      "title": "La Salle Barcelona · Software Architecture",
+      "institution": "La Salle–Universitat Ramon Llull",
+      "country": "Spain",
+      "program": "MSc Software Development and Architecture",
+      "cycle": "2027–2028",
+      "status": "On hold",
+      "deadline": "",
+      "deadlineNote": "Checked 29 Oct 2026: master's admission is rolling until places fill, with scholarship allocation subject to availability. Current programme start remains 19 October 2026; 2027 start/price not confirmed. Booking payment normally due within 15 days of acceptance, not a general application deadline.",
+      "nextStep": "Ask admissions to confirm the 2027 intake/fee, MOI policy, grade-equivalence scholarship eligibility and any tuition-plus-living sponsor before paying a deposit.",
+      "notes": "Confirmed interest in prior planning: a leading subject-fit option. Official programme is English, on-campus in Barcelona, 9 months / 60 ECTS. Funding remains the blocker. Current master's scholarships include Lasallian-alumni and academic/financial partial awards; eligibility and grade conversion must be assessed, not assumed. A partial tuition reduction is not a fully funded scholarship. Do not pay a booking deposit without a viable financing plan.\n\n29 October 2026 official-source review:\nAcademic fit: software engineering/architecture, not a primarily statistics or model-training degree. Official Spanish programme title is Master Universitario en Desarrollo y Arquitectura de Software. English/on-campus Barcelona; 60 ECTS, nine months, 60 places, Tuesday–Thursday 19:00–22:00. Current intake page still gives 19 October 2026; do not infer October 2027 availability.\nCurriculum: software design I/II; testing fundamentals; software architecture I/II; development principles/tools; software development models; agile methodologies; programming paradigms; unstructured databases; 10-ECTS final thesis. Methodology includes team projects and a company-defined final challenge, not a guaranteed paid placement.\nEligibility: CS graduates are an explicit target; non-EHEA degrees assessed for equivalent preparation and master's access. Programme-specific English test minimum and MOI acceptance not verified on the official requirements page; obtain written confirmation.\nPublished tuition is EUR 11,940 for 2026/27, not a verified 2027/28 quote. At that base price a 40% award leaves EUR 7,164 tuition, before living costs.\nFunding: academic excellence awards 50% for accepted Spanish-equivalent GPA >=9.5 (2/programme), 40% >=8.5 (4/programme), 20% >=8 (3/programme). Grade conversion must be assessed; 85.6/100 is not automatically accepted as 8.56/10. Financial-support/Boost awards 10–40%. Lasallian-school alumni 10%; employment alone does not prove eligibility. Corporate agreement 15% requires an active FUNITEC agreement. Aid cannot be stacked. Casa de Mexico includes a full-tuition Software Architecture place, but requires Mexican nationality, so not applicable on known nationality. No applicable fully funded tuition-plus-living award identified.\nAdmission: rolling until places fill; upload passport and degree (CV useful), possible interview. Published response target eight days after complete documents; booking generally payable within 15 days of acceptance. Confirm 2027 tuition/intake, English/MOI policy, exact award eligibility, scholarship timing before deposit, and any external living-cost sponsorship before committing.\nSources: https://www.salleurl.edu/en/admissions/masters-admissions/admission-process ; https://www.salleurl.edu/en/admissions/masters/scholarship-program ; https://www.salleurl.edu/en/requirements-admission-masters-programmes",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "las-intake",
+          "title": "Confirm 2027 intake and admission / scholarship deadlines",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "las-fund",
+          "title": "Check Lasallian, academic and need-based funding eligibility",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "las-decision",
+          "title": "Decide whether remaining costs are affordable before applying",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "las-program",
+          "title": "Official programme",
+          "url": "https://www.salleurl.edu/en/education/master-science-software-development-and-architecture"
+        },
+        {
+          "id": "las-funding",
+          "title": "Master's scholarships",
+          "url": "https://www.salleurl.edu/en/admissions/masters/scholarship-program"
+        },
+        {
+          "id": "deadline-audit-20261029-0",
+          "title": "Official master's admissions and 2026/27 prices",
+          "url": "https://www.salleurl.edu/en/admissions/masters-admissions/admission-process"
+        },
+        {
+          "id": "deadline-audit-20261029-1",
+          "title": "Programme syllabus",
+          "url": "https://www.salleurl.edu/en/education/master-science-software-development-and-architecture/syllabus"
+        }
+      ],
+      "programs": [],
+      "id": "14a9586f-1dfd-43a4-95ba-78abb88e9f1e",
+      "version": 2,
+      "updatedAt": "2026-10-29T19:51:33.255Z"
+    },
+    {
+      "title": "Hasselt · Statistics / Data Science funding",
+      "institution": "Hasselt University",
+      "country": "Belgium",
+      "program": "Master of Statistics and Data Science · specialisation to reassess",
+      "cycle": "2027–2028",
+      "status": "On hold",
+      "deadline": "",
+      "deadlineNote": "Checked 29 Oct 2026: MasterMind 2027/28 call is still not open. General admissions calendar lists MasterMind 15 March, recommends programme application by 1 February, and Statistics/Data Science non-EEA on-campus admission by 1 April. Treat scholarship dates as provisional until the actual 2027/28 call confirms them. Programme applications open 15 November.",
+      "nextStep": "Resolve the specialisation and a suitable full-funding route before committing to an application.",
+      "notes": "Interest was explored and an English-medium certificate discussed. Official programme information says ICP support covers Biostatistics, Bioinformatics and Epidemiology, not the Data Science specialisation. The incoming-scholarships page says MasterMind 2027/28 is not yet open and includes Statistics and Data Science. Funding availability for the intended specialisation and match to software/data engineering remain unresolved. This is retained as a held lead, not an active funded application.",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "has-special",
+          "title": "Confirm desired specialisation and academic fit",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "has-fund",
+          "title": "Verify funding availability and coverage for the exact route",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "has-language",
+          "title": "Confirm English-proof and mathematics requirements",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        }
+      ],
+      "links": [
+        {
+          "id": "has-prog",
+          "title": "Master's programme",
+          "url": "https://www.uhasselt.be/Master-of-Statistics"
+        },
+        {
+          "id": "has-fund",
+          "title": "Incoming scholarships and MasterMind call",
+          "url": "https://www.uhasselt.be/en/international/from-abroad/scholarships-incoming-students"
+        },
+        {
+          "id": "deadline-audit-20261029-0",
+          "title": "UHasselt admission calendar",
+          "url": "https://www.uhasselt.be/admission"
+        }
+      ],
+      "programs": [],
+      "id": "22a73c3c-43f8-4b87-b5db-73cc9b1c861d",
+      "version": 2,
+      "updatedAt": "2026-10-29T19:51:31.251Z"
+    },
+    {
+      "title": "Grenoble · MoSIG M1",
+      "institution": "Université Grenoble Alpes / Grenoble INP–Ensimag",
+      "country": "France",
+      "program": "M1 MoSIG → intended M2 Cloud Computing & Data Infrastructures",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "",
+      "deadlineNote": "Checked 29 Oct 2026: FSA opens January 2027. Visa applicants strongly advised to apply by end March. Separate mandatory FSA cutoff before 30 March 2027 applies to applicants using Etudes en France. No universal hard closing date inferred.",
+      "nextStep": "Prepare the M1 application and programme-specific motivation for the January opening.",
+      "notes": "One of the six ORIGINAL France Excellence choices, explicitly retained by Nadim. This card tracks programme admission; funding is tracked separately under France Excellence. No admission application submission or offer is confirmed. ",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "o0-entry",
+          "title": "Confirm 2027 entry requirements / course language",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "o0-letter",
+          "title": "Prepare tailored motivation letter and academic documents",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "o0-apply",
+          "title": "Submit programme admission application",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "official",
+          "title": "Official programme / admission information",
+          "url": "https://relint.imag.fr/MainEn/Admission"
+        }
+      ],
+      "programs": [],
+      "id": "4aaedc77-391d-481c-9d7a-7fa34357e8df",
+      "version": 2,
+      "updatedAt": "2026-10-29T19:51:29.794Z"
+    },
+    {
+      "title": "Besançon · SSE M1",
+      "institution": "Université Marie et Louis Pasteur / EIPHI",
+      "country": "France",
+      "program": "M1 Software and Systems Engineering",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "",
+      "deadlineNote": "Checked 29 Oct 2026: EIPHI general admissions page still explicitly labels the 1 February–30 June window as 2026/27 and says dates vary by track. SSE 2027/28 deadline not confirmed; do not roll last year's dates forward.",
+      "nextStep": "Confirm the 2027 English SSE route and admissions calendar, then prepare the academic dossier.",
+      "notes": "One of the six ORIGINAL France Excellence choices, explicitly retained by Nadim. This card tracks programme admission; funding is tracked separately under France Excellence. No admission application submission or offer is confirmed. ",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "o1-entry",
+          "title": "Confirm 2027 entry requirements / course language",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "o1-letter",
+          "title": "Prepare tailored motivation letter and academic documents",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "o1-apply",
+          "title": "Submit programme admission application",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "official",
+          "title": "Official programme / admission information",
+          "url": "https://dept-info.univ-fcomte.fr/eiphi-sse"
+        },
+        {
+          "id": "deadline-audit-20261029-0",
+          "title": "EIPHI official application procedure",
+          "url": "https://gradschool.eiphi.ubfc.fr/?page_id=12"
+        }
+      ],
+      "programs": [],
+      "id": "a2931ce6-2142-400c-bb8e-dadb3e7755e3",
+      "version": 2,
+      "updatedAt": "2026-10-29T19:51:28.083Z"
+    },
+    {
+      "title": "Lille · Computer Sciences M1",
+      "institution": "Université de Lille",
+      "country": "France",
+      "program": "M1 Computer Sciences · English international track",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "",
+      "deadlineNote": "Checked 29 Oct 2026: programme page directs European/non-EEF applicants to Mon Master and EEF applicants to Etudes en France. National 2027 Mon Master application window ends 16 March 2027, conditional on that being the applicable route. No universal programme-specific deadline verified for this applicant.",
+      "nextStep": "Confirm the complete English software-oriented course package and prepare the M1 application.",
+      "notes": "One of the six ORIGINAL France Excellence choices, explicitly retained by Nadim. This card tracks programme admission; funding is tracked separately under France Excellence. No admission application submission or offer is confirmed. ",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "o2-entry",
+          "title": "Confirm 2027 entry requirements / course language",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "o2-letter",
+          "title": "Prepare tailored motivation letter and academic documents",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "o2-apply",
+          "title": "Submit programme admission application",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "official",
+          "title": "Official programme / admission information",
+          "url": "https://formation.univ-lille.fr/fr/offre-de-formation/master-lmd-XB/master-informatique-MG001981/computer-sciences-MX195387.html"
+        },
+        {
+          "id": "deadline-audit-20261029-0",
+          "title": "National 2027 application calendar",
+          "url": "https://www.campusfrance.org/fr/candidature-enseignement-superieur-france"
+        }
+      ],
+      "programs": [],
+      "id": "26f32d5b-143d-4f43-8d39-65081f7621b6",
+      "version": 2,
+      "updatedAt": "2026-10-29T19:51:26.427Z"
+    },
+    {
+      "title": "Pau · Industry 4.0 M2",
+      "institution": "Université de Pau et des Pays de l’Adour",
+      "country": "France",
+      "program": "M2 Industry 4.0 · IT Digital Transformation · Anglet",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "",
+      "deadlineNote": "Checked 29 Oct 2026: official Industry 4.0 page still lists M2 eCandidat 16 March–31 May 2026. No 2027 M2 closing date confirmed. The 16 March date seen on some listings is not a verified 2027 M2 deadline.",
+      "nextStep": "Confirm eligibility of the Al-Quds four-year degree for the Anglet IT option.",
+      "notes": "One of the six ORIGINAL France Excellence choices, explicitly retained by Nadim. This card tracks programme admission; funding is tracked separately under France Excellence. No admission application submission or offer is confirmed. A four-year degree is not automatic M1 equivalence; obtain an individual assessment. ",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "o4-entry",
+          "title": "Confirm 2027 entry requirements / course language",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "o4-letter",
+          "title": "Prepare tailored motivation letter and academic documents",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "o4-apply",
+          "title": "Submit programme admission application",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "official",
+          "title": "Official programme / admission information",
+          "url": "https://formation.univ-pau.fr/fr/catalogue/master-XB/master-mention-informatique-L3Y98DNU/parcours-industry-4-0-L3Y99LS5.html"
+        }
+      ],
+      "programs": [],
+      "id": "421ac5fb-321d-4745-b38d-69496053f2f8",
+      "version": 2,
+      "updatedAt": "2026-10-29T19:51:24.918Z"
+    },
+    {
+      "title": "IP Paris · PDS / Eiffel",
+      "institution": "Institut Polytechnique de Paris",
+      "country": "France",
+      "program": "M1 Parallel and Distributed Systems → M2",
+      "cycle": "2027–2028",
+      "status": "Awaiting reply",
+      "deadline": "",
+      "deadlineNote": "Checked 29 Oct 2026: PDS-specific internal Eiffel deadline remains unconfirmed. IP Paris standard master's rounds close 14 Jan, 31 Mar and 31 May 2027; these are NOT Eiffel deadlines. Campus France institutional submission is 6 Jan 2027, so do not wait for the regular first-round closing date.",
+      "nextStep": "Await the answer to the sent follow-up about submitting the admission application and entering Eiffel shortlisting.",
+      "notes": "Email enquiries and CV/transcripts sent 26 October 2026. IP Paris replied that it nominates selected students, the Eiffel selection process had not started, and shortlisted candidates would be contacted. A follow-up asking whether a complete admission application must come first was sent the same day. No admission application submission or nomination is confirmed. Coordinate a single institutional Eiffel nomination if shortlisted by several institutions.",
+      "pinned": true,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "ip-enquiry",
+          "title": "Send Eiffel enquiry with academic evidence",
+          "done": true,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "ip-follow",
+          "title": "Send admissions-process follow-up",
+          "done": true,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "ip-reply",
+          "title": "Receive admission / Eiffel procedure clarification",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "ip-apply",
+          "title": "Complete M1 admission application once the process is confirmed",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "ip-mail",
+          "title": "Admissions correspondence",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a17774142975586"
+        },
+        {
+          "id": "ip-admissions",
+          "title": "IP Paris admissions",
+          "url": "https://www.ip-paris.fr/en/education/admissions"
+        },
+        {
+          "id": "ip-pds",
+          "title": "PDS programme",
+          "url": "https://e4h.ip-paris.fr/education/masters/mention-informatique/master-year-1-parallel-and-distributed-systems"
+        },
+        {
+          "id": "deadline-audit-20261029-0",
+          "title": "IP Paris — current admission rounds",
+          "url": "https://www.ip-paris.fr/en/education/useful-information/admissions"
+        }
+      ],
+      "programs": [],
+      "id": "90226130-322d-4bfd-8b0b-298bda199cd5",
+      "version": 2,
+      "updatedAt": "2026-10-29T19:51:23.391Z"
+    },
+    {
+      "title": "Glasgow · Dima Alhaj Scholarship",
+      "institution": "University of Glasgow",
+      "country": "United Kingdom",
+      "program": "Programme and active call to investigate",
+      "cycle": "2027–2028",
+      "status": "Researching",
+      "deadline": "",
+      "deadlineNote": "Checked 29 Oct 2026: official Dima Alhaj page says applications for 2027/28 will open soon; no closing date published. Programme application must be in progress first.",
+      "nextStep": "Choose an eligible full-time taught master's and start its application before applying for the scholarship.",
+      "notes": "Discussed as potentially comprehensive Palestinian funding. Current eligibility, award and completion not assumed.\n\nOfficial scheme identified and verified 27 October: Dima Alhaj Scholarship. For September 2027 it advertises one postgraduate taught scholarship, plus one undergraduate award. Programme application must be in progress first. Funding lists tuition, university accommodation, £9,010/year stipend, visa/health surcharge and flight to Glasgow. Applicants must be Palestinian nationals domiciled in Palestine with international fee status. The page has an inconsistent '2027-26' line, but introduction and opening notice identify September 2027 / 2027–28. Exact MSc and eligibility still need deciding.",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "gla-call",
+          "title": "Verify active call and eligibility",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "gla-prog",
+          "title": "Find eligible programme fitting the profile",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "gla-official",
+          "title": "Official Dima Alhaj Scholarship",
+          "url": "https://www.gla.ac.uk/scholarships/thedimaalhajscholarship/"
+        }
+      ],
+      "programs": [],
+      "id": "glasgow-palestine",
+      "version": 3,
+      "updatedAt": "2026-10-29T19:51:21.941Z"
+    },
+    {
+      "title": "Max Planck · CS Internship",
+      "institution": "Max Planck Society",
+      "country": "Germany",
+      "program": "Computer Science Research Internship",
+      "cycle": "2027",
+      "status": "Submitted",
+      "deadline": "2026-11-01",
+      "deadlineNote": "Summer 2027 starts (May–August): 1 November 2026. Other starts: apply at least five months ahead. Cutoff time unverified; aim to submit 31 October.",
+      "nextStep": "Await the application outcome and respond to any interview, document or reference requests.",
+      "notes": "UPDATE — 29 October 2026: Nadim confirmed submission and replacement of Mobyen with Basil. Earlier preparation notes below are historical. Exact final attachments and changes have not been independently checked.\n\nAdded 29 October 2026 from the Max Planck Internship chat. Last directly observed form state: 18 October. Subsequent submission, email delivery and replies have not been checked.\n\nPROGRAM (official page verified 29 October)\nResearch with a faculty mentor at MPI Software Systems (Saarbrücken/Kaiserslautern), MPI Informatics (Saarbrücken), or MPI Security and Privacy (Bochum). Usually 12–14 weeks; longer possible. Fully funded: monthly living stipend, housing and round-trip travel. Exact stipend and payment/reimbursement timing are unpublished. Visa-fee coverage needs confirmation after acceptance. Summer decisions before 1 February; non-summer: assume unsuccessful after four months without a reply. Bachelor’s graduates awaiting a master’s may apply. At least one referee required; letters requested only if needed. Public guidance calls the motivation letter optional; portal labels it Statement of Purpose.\n\nPREFERENCES / APPLICATION\nPrimary MPI Software Systems; secondary MPI Informatics.\nResearch area: Numerical/Scientific Computing / HPC / Data-Intensive Scalable Computing.\nFaculty: Antoine Kaufmann (antoinek@mpi-sws.org), Anne-Kathrin Schmuck (akschmuck@mpi-sws.org), Yiting Xia (yxia@mpi-inf.mpg.de).\nOn 18 October Nadim said he scheduled these emails for 19 October morning. Sending and replies unverified.\nDraft form listed all three under both faculty interest and already spoken to. Leave already spoken to blank if no exchange occurred, or qualify unanswered outreach accurately. Faculty contact is not required.\nCurrent availability: “Available from the earliest feasible start date for 12–14 weeks or longer, with flexibility on timing and duration.”\nNadim later asked about starting after January 2027; not entered. Late March/April is more consistent with the five-month lead time for a late-October application than February.\nAdditional remarks: “My primary preference is the Max Planck Institute for Software Systems. I am also very interested in the Max Planck Institute for Informatics and would welcome opportunities at either institute that align with my background and research interests.”\n\nACADEMICS / REFERENCES\nAl-Quds University, Bachelor’s Degree in Computer Science, June 2026. Overall GPA 85.6%; major GPA 84.3%. Draft rank/class size: Unknown; check appropriate N/A wording.\nNael Halawa — nhalawa@staff.alquds.edu\nWael Hassouneh — hassouneh@staff.alquds.edu\nBasil — replaced Mobyen, confirmed by Nadim on 29 October 2026; full name and email not yet recorded here.\nReferee consent not yet confirmed in chat.\n\nDOCUMENTS / STATUS\nCV, SOP and audit prepared; final PDFs need checking. No files selected in the form on 18 October. Submission confirmed by Nadim on 29 October 2026.\nSOP source: C:/Users/thebe/Documents/Codex/2026-10-17/im-n/outputs/Nadim_Baboun_Statement_of_Purpose/main.tex\nCV: C:/Users/thebe/Downloads/Max/CV.pdf\nTranscript: C:/Users/thebe/Documents/University/Bachelor's/Graduation/Transcript.pdf\nDegree: C:/Users/thebe/Documents/University/Bachelor's/Graduation/Degree.pdf\nAudit: C:/Users/thebe/Downloads/opas_audit_report.pdf\nAudit is a technical draft for outreach, not a fully validated publication; a numerical-reference boundary limitation remains documented.\nFull application answers including referee emails are preserved in the Max Planck Internship chat.",
+      "pinned": true,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "form-fields",
+          "title": "Fill application fields and all three referees",
+          "done": true,
+          "due": "2026-10-29",
+          "category": "Task"
+        },
+        {
+          "id": "cv",
+          "title": "Correct CV result range to 9.6–21.1%, check PDF and upload manually",
+          "done": true,
+          "due": "2026-10-31",
+          "category": "Document"
+        },
+        {
+          "id": "sop",
+          "title": "Check SOP PDF and faculty-contact wording; upload",
+          "done": true,
+          "due": "2026-10-31",
+          "category": "Document"
+        },
+        {
+          "id": "transcript",
+          "title": "Upload transcript and verify academic entries",
+          "done": true,
+          "due": "2026-10-31",
+          "category": "Document"
+        },
+        {
+          "id": "referees",
+          "title": "Replace Mobyen with Basil — completed by Nadim",
+          "done": true,
+          "due": "2026-10-31",
+          "category": "Contact"
+        },
+        {
+          "id": "faculty",
+          "title": "Check scheduled faculty email delivery/replies; correct contact field",
+          "done": true,
+          "due": "2026-10-30",
+          "category": "Contact"
+        },
+        {
+          "id": "dates",
+          "title": "Enter February 2027 onward, 12–14 weeks or longer, with flexible start and duration",
+          "done": true,
+          "due": "2026-10-29",
+          "category": "Task"
+        },
+        {
+          "id": "submit",
+          "title": "Application submitted — confirmed by Nadim",
+          "done": true,
+          "due": "2026-10-31",
+          "category": "Task"
+        },
+        {
+          "id": "funding",
+          "title": "If accepted, confirm stipend, payment timing, housing, travel and visa fees",
+          "done": true,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "official",
+          "title": "Official program and funding",
+          "url": "https://www.cis.mpg.de/internships/"
+        },
+        {
+          "id": "application",
+          "title": "Nadim’s application",
+          "url": "https://apply.cis.mpg.de/applications/170254/edit"
+        }
+      ],
+      "programs": [
+        {
+          "id": "cs-internship",
+          "name": "Computer Science Research Internship",
+          "level": "Research internship",
+          "status": "Submitted"
+        }
+      ],
+      "id": "1a82c823-09f2-4691-a6be-6bb63383cff8",
+      "version": 8,
+      "updatedAt": "2026-10-29T18:13:57.739Z"
+    },
+    {
+      "title": "Gerda von Mach · Al-Quds",
+      "institution": "Dr. Dr. Gerda von Mach Gedächtnisstiftung / Al-Quds University",
+      "country": "Palestine",
+      "program": "Master of Computer Science · intended general CS track · February 2027 start",
+      "cycle": "2026–2027 application round",
+      "status": "Submitted",
+      "deadline": "2026-10-31",
+      "deadlineNote": "Verified in Stefanie's 23 October 2026 email and the foundation website: application window ends 31 October. No specific closing time stated.",
+      "nextStep": "Await Heidi’s acknowledgement and the foundation’s decision; respond if additional documents or clarification are requested.",
+      "notes": "Verified 27 October 2026. Stefanie accepted the revised plan on 23 October but said the sister must personally withdraw. Her automatic reply says she is away until 2 November; urgent contact is heidi.schwab-trapp@von-mach-stiftung.de. The prior study-report/email drafts concern an intended February 2027 Al-Quds master's, expected completion June 2029; admission is not confirmed. The May 2026 foundation reply says funding, if awarded, begins April 2027—clarify the gap from February. The website asks for at least three recommendations, financial evidence and unconditional enrolment; ask how to handle the admission letter not yet available. Documents found in Master's/Gerda Von Mach include initial application, CV, ID, photo, academic plan, study report and volunteering evidence. These are not proof of submission.\n\nChecklist update agreed with Nadim — 27 October 2026\n\nTO DO\n- Sign and date the completed application.\n- Obtain official signature and stamp on the financial questionnaire.\n- Select and finalize three recommendation letters.\n- Get the volunteering certificate dated, signed and stamped.\n- Add bachelor’s degree, final transcript and school certificates to the submission folder.\n- Obtain university confirmation of the program’s standard duration.\n- Provide unconditional admission/enrollment once available.\n- Finalize the email and check all attachments.\n\nIN PROGRESS\n- Financial evidence: father’s income confirmation and Nadim’s employment/salary certificate.\n\nDONE\n- Photo and passport.\n- Updated CV and study report.\n- Master’s curriculum.\n- Two-semester course and exam plan: final Word/PDF uses two courses per semester.\n\nThe existing completed sibling-withdrawal milestone is preserved. Pending-admission/funding-gap clarification and application submission remain open. The latest email draft is addressed to Heidi and uses Nadim’s shortened text; no submission is claimed.\n\n27 October 2026: Prepared Dr. Nael Abu Halawa’s one-page Gerda von Mach recommendation draft using Nadim’s supplied Al-Quds LaTeX template. Editable source and compiled PDF saved under output/recommendations/Nael_Gerda_von_Mach. Adapted to the planned Al-Quds Master of Computer Science, teaching/supervision relationship, academic record and Sklr. The date, signature and stamp remain for the recommender; this is not yet an approved or signed recommendation. Recommendation letters moved to In Progress.\n\n27 October 2026: Revised Nael’s Gerda von Mach recommendation draft to remove the recommender email address and the closing invitation to contact him. Recompiled and checked the one-page PDF. Review/signature remain pending.\n\n27 October 2026: Added the applicant-requested date of 21 October 2026 to Nael’s recommendation draft and recompiled the one-page PDF. Signature and institutional approval remain pending.\n\n27 October 2026: Replaced the generic salutation in Nael’s recommendation draft with a direct address to the Gerda von Mach Foundation Scholarship Committee. Recompiled and checked the updated one-page PDF. Review and signature remain pending.\n\n27 October 2026: Prepared the Frères/Basil Khoury Gerda von Mach recommendation draft on the existing Frères letterhead. Adapted the original professional recommendation to planned Al-Quds studies, preserving its emphasis on communication, dependability, school systems and community contribution. Kept the original date of 26 October 2026. Included the applicant-supplied signature image; omitted the stamp per final instruction. Compiled and visually checked the one-page PDF. Source remains in 2026-10-26/com/work/letterhead-before-new-certificate.tex; PDF saved as output/recommendations/Freres_Gerda_von_Mach_Recommendation_Draft.pdf. Final recommender approval has not been independently confirmed; the recommendation checklist remains In Progress.\n\n27 October 2026: Removed the signature image from the Frères recommendation draft at Nadim’s request, preserving the same empty signature space above Basil Khoury’s name. No stamp is included. Recompiled and checked the updated one-page PDF. Recommender signature and approval remain pending.\n\n27 October 2026: Created and compiled a blank Bethlehem Municipality letterhead template from the supplied separate artwork, with bilingual header, emblem, skyline and contact footer. Editable LaTeX project and visually checked one-page PDF saved in output/Bethlehem_Municipality_Letterhead. Body, date, signature and stamp are absent; the third recommendation remains pending.\n\n27 October 2026: Prepared a one-page municipality recommendation draft on the recreated letterhead, addressed to the Gerda von Mach Foundation and tailored to the planned Al-Quds master's, community volunteering/IT support and temporary employment/financial circumstances. Compiled and visually checked; no signature or stamp included. Blank template preserved as blank-letterhead.tex. Municipality review, official details and signature remain pending; recommendations remain In Progress.\n\n27 October 2026: Revised municipality recommendation at Nadim's request to focus on the planned Al-Quds Master of Computer Science. Removed employment, volunteering, financial circumstances and specific career-interest sections. Updated one-page PDF compiled and checked; no signature or stamp. Municipality review and signature remain pending.\n\n28 October 2026 correction: Salary Slips.pdf documents the FATHER'S income, not Nadim's. Father’s financial evidence is complete per Nadim. Nadim has not yet received his first paycheck; explain this in the submission email (previously confirmed salary ILS 2,300/month, first payment expected 1 November). Financial questionnaire is a section of the application and is now tracked together with it. The merged duplicate task is administratively closed, not evidence that the application is signed or complete.\n\n28 October 2026: Updated study report source and application-folder PDF to replace father's small-business description with his confirmed Phoenix Enterprise role: Fabric and Uniform Salesman and Assistant Manager, base monthly salary NIS 900, overtime dependent on availability and not guaranteed. Recompiled and visually checked one-page PDF; study report remains Done.\n\n28 October 2026: Updated Nadim’s manually edited Downloads/Nadim_Baboun_Scholarship_Application_DRAFT.pdf, preserving all other field values. New output: Downloads/Nadim_Baboun_Scholarship_Application_UPDATED.pdf. Added Bethlehem, 28.10.2026 to the two applicant date lines on page 6 and applicant declaration on page 9; signatures and official certifier date left blank. Corrected father’s Phoenix Enterprise role, employment income type, NIS 900 base plus variable overtime, documented May–September average total NIS 1,520/month, and NIS 10,800 annual base excluding overtime with actual annual total unconfirmed. Form remains interactive; signature/stamp completion still In Progress.\n\n29 October 2026: Audited Master's/Gerda Von Mach folder against current official application webpage, linked Mussunterlagen PDF, and application pages 10–11. Missing standalone birth/baptism certificates and 11th/12th-grade school reports (Tawjihi is present). Church recommendation mentions Catholic family but is not a baptism certificate. Enrolment file states anticipated February 2027–June 2029 period; curriculum does not explicitly establish standard programme duration. Existing application/enrolment/duration information needs consistency review; two application PDFs differ on mother's profession/income type. No application submission or institutional authenticity validation claimed.\n\n29 October correction after live Gmail verification: Heidi’s 31 July 2026 email, subject AW: Final Degree Documents, message 19fb7527dd6c32ea, explicitly says: You do not need to resend your birth- and baptism certificate and Tawjihi. These are not missing submission requirements for Nadim’s renewed application. Omit Tawjihi Certificate.pdf from the new email if desired; retain the local file. No other folder documents explicitly waived in that email. 11th/12th school reports are not explicitly named in the exemption, so their status remains a clarification rather than a confirmed fresh-document requirement. Source: https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/19fb7527dd6c32ea\n\n29 October 2026: Live Gmail verification confirms application sent to heidi.schwab-trapp@von-mach-stiftung.de at 10:52 (Asia/Jerusalem), subject Master’s Scholarship Application - Nadim Baboun, with 19 PDF attachments. Included corrected Antragsunterlagen.pdf (2,070,612 bytes), all four recommendation letters, father’s income evidence, Nadim’s employment certificate, enrolment letter, degree/transcript, photo/passport, CV/study report, curriculum and two-semester plan, volunteering certificate and TOEFL score. Birth/baptism/Tawjihi omitted per Heidi’s 31 July exemption. No internship certificate attached (optional). Status changed to Submitted, not Accepted; no recipient acknowledgement or funding decision verified. Official standard-duration wording and 11th/12th-report applicability remain clarification items only; no additional email sent by the assistant. Sent email: https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a186dc24733d219",
+      "pinned": true,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "gerda-collected",
+          "title": "Done — Photo and passport",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-cv-report",
+          "title": "Done — Updated CV and study report",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-curriculum",
+          "title": "Done — Master’s curriculum",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-course-exam-plan",
+          "title": "Done — Two-semester course and exam plan (two courses per semester; final Word/PDF)",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-withdraw",
+          "title": "Confirm the foundation received the sibling's own withdrawal",
+          "done": true,
+          "due": "2026-10-29",
+          "category": "Contact"
+        },
+        {
+          "id": "gerda-financial-evidence",
+          "title": "Done — Father’s employment certificate and salary slips",
+          "done": true,
+          "due": "2026-10-30",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-sign-application",
+          "title": "Done — Application including financial section, signatures and stamp submitted",
+          "done": true,
+          "due": "2026-10-30",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-finance",
+          "title": "Merged into application task — Financial questionnaire is part of the application; not a separate document",
+          "done": true,
+          "due": "2026-10-30",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-refs",
+          "title": "Done — Three recommendation letters: university, Frères employer and municipality (confirmed complete by Nadim)",
+          "done": true,
+          "due": "2026-10-30",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-volunteer-signature",
+          "title": "Done — Certificate of Volunteering (confirmed complete by Nadim)",
+          "done": true,
+          "due": "2026-10-30",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-academic-certificates",
+          "title": "Done — Bachelor’s degree, final transcript and secondary-school certificate",
+          "done": true,
+          "due": "2026-10-30",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-standard-duration",
+          "title": "In Progress — University confirmation of master’s standard duration",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-enrollment",
+          "title": "Done — Enrolment confirmation included in submitted application",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-admit",
+          "title": "Optional follow-up — Confirm funding start date if needed; not a submission requirement",
+          "done": true,
+          "due": "2026-10-29",
+          "category": "Contact"
+        },
+        {
+          "id": "gerda-review",
+          "title": "Done — Final email and 19 supporting PDF attachments sent",
+          "done": true,
+          "due": "2026-10-30",
+          "category": "Document"
+        },
+        {
+          "id": "gerda-send",
+          "title": "Done — Scholarship application sent to Heidi on 29 October 2026",
+          "done": true,
+          "due": "2026-10-31",
+          "category": "Task"
+        },
+        {
+          "id": "d4697af4-f5d5-449d-b73f-f4e694a3c103",
+          "title": "Not required again — Birth and baptism certificates waived by Heidi’s 31 July 2026 email",
+          "done": true,
+          "due": "2026-10-30",
+          "category": "Document"
+        },
+        {
+          "id": "3a3d5b3e-e471-43b8-a5b5-b06e2c1ef9f8",
+          "title": "Clarification only — 11th/12th-grade reports appear on general checklist; Heidi waived Tawjihi but did not explicitly mention these",
+          "done": true,
+          "due": "2026-10-30",
+          "category": "Document"
+        }
+      ],
+      "links": [
+        {
+          "id": "gerda-official",
+          "title": "Official application requirements",
+          "url": "https://von-mach-stiftung.de/de/bewerbung"
+        },
+        {
+          "id": "gerda-deadline",
+          "title": "Stefanie's deadline confirmation, 23 October",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a16861a62849af6"
+        },
+        {
+          "id": "gerda-funding",
+          "title": "Master's procedure and funding-start email",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/19e20618728da922"
+        },
+        {
+          "id": "gerda-submitted-email",
+          "title": "Application sent to Heidi — 29 October 2026",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a186dc24733d219"
+        }
+      ],
+      "programs": [],
+      "id": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "version": 42,
+      "updatedAt": "2026-10-29T13:09:41.055Z"
+    },
+    {
+      "title": "CoDaS Erasmus Mundus",
+      "institution": "CoDaS consortium",
+      "country": "Europe",
+      "program": "Communications Engineering and Data Science",
+      "cycle": "2027–2028",
+      "status": "Researching",
+      "deadline": "2027-01-05",
+      "deadlineNote": "Application form: 5 January 2027, 15:00 GMT+2. Documents, motivation video, references and language results: 12 January 2027, 15:00 GMT+2. Round opens 1 December 2026.",
+      "nextStep": "Decide whether to pursue CoDaS, resolve English evidence and prepare for the 1 December opening.",
+      "notes": "Previously discussed as an alternative. Programme fit and current requirements need checking. No submission confirmed.\n\nVerified official autumn-2027 admissions calendar. The application form deadline (5 January) and document deadline (12 January) differ. For a test taken before 21 January 2026, TOEFL minimum is 92 overall / 22 writing; later tests use the newer published scale. A Palestine-issued MOI / Swedish exchange does not automatically satisfy the listed degree-country exemption. Current 78 score does not meet the old-score route; planned retake must be assessed against current rules.",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "co-language",
+          "title": "Verify English requirements",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "co-intake",
+          "title": "Verify funded intake and deadline",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "co-fit",
+          "title": "Assess programme fit",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "co-documents",
+          "title": "Submit all required enclosures, video, references and accepted English proof",
+          "done": false,
+          "due": "2027-01-12",
+          "category": "Document"
+        }
+      ],
+      "links": [
+        {
+          "id": "co-admission",
+          "title": "Official CoDaS requirements and dates",
+          "url": "https://www.unite-codas-master.eu/admission.html"
+        }
+      ],
+      "programs": [],
+      "id": "codas",
+      "version": 2,
+      "updatedAt": "2026-10-27T17:30:16.284Z"
+    },
+    {
+      "title": "EDISS Erasmus Mundus",
+      "institution": "EDISS consortium",
+      "country": "Europe",
+      "program": "Engineering of Data-intensive Intelligent Software Systems",
+      "cycle": "2027–2028",
+      "status": "Researching",
+      "deadline": "2027-01-12",
+      "deadlineNote": "Intake 7 funded round: 16 November 2026, 08:00 to 12 January 2027, 15:00 Helsinki time.",
+      "nextStep": "Decide whether to pursue the funded round, verify English requirements and prepare for the 16 November opening.",
+      "notes": "Previously discussed as an alternative. TOEFL retake planned. No submission confirmed.\n\nVerified in the 23 September 2026 official Intake 7 announcement: Erasmus Mundus / EDISS scholarship applications run 16 November 2026–12 January 2027 (15:00 Helsinki). Later tuition-waiver and self-funded rounds are different funding outcomes. Retained as Researching; no application begun or submitted is confirmed.",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "ed-language",
+          "title": "Verify English requirements",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "ed-intake",
+          "title": "Verify funded intake and deadline",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "ed-open",
+          "title": "If pursuing, start the funded application when the round opens",
+          "done": false,
+          "due": "2026-11-16",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "ed-intake",
+          "title": "Intake 7 official dates",
+          "url": "https://www.master-ediss.eu/upcoming-application-rounds-ediss-intake-7/"
+        },
+        {
+          "id": "ed-req",
+          "title": "Admission requirements",
+          "url": "https://www.master-ediss.eu/admission-requirements/"
+        }
+      ],
+      "programs": [],
+      "id": "ediss",
+      "version": 2,
+      "updatedAt": "2026-10-27T17:30:14.817Z"
+    },
+    {
+      "title": "DEAI Erasmus Mundus",
+      "institution": "European university consortium",
+      "country": "Europe",
+      "program": "Data Engineering and Artificial Intelligence",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "2027-01-11",
+      "deadlineNote": "Grant application deadline: 11 January 2027, 12:00 GMT (14:00 Jerusalem). Referee uploads: 18 January 2027.",
+      "nextStep": "Check the live grant application and signed evidence, submit by 11 January, and ensure referee uploads by 18 January.",
+      "notes": "Application materials and project reports prepared. Referees: Nael, Wael and Basil. Jawwal evidence was prepared for this application; existing evidence and expanded unsigned draft are separate. Submission and referee completion not confirmed.\n\nOfficial DEAI 2027–2029 cohort dates checked 27 October: funded round opened 20 October 2026; application closes 11 January 2027 at 12:00 GMT. Reference letters due 18 January. The later self-funded / partial-grant round is a separate process. No final submission is inferred from prepared documents.",
+      "pinned": true,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "deai-opas",
+          "title": "OPAS technical report prepared",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "deai-sklr",
+          "title": "Sklr project report prepared",
+          "done": true,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "deai-jawwal",
+          "title": "Have expanded Jawwal certificate approved and signed",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "deai-nael",
+          "title": "Nael: review and submit academic reference",
+          "done": false,
+          "due": "2027-01-18",
+          "category": "Contact"
+        },
+        {
+          "id": "deai-wael",
+          "title": "Wael: review and submit academic reference",
+          "done": false,
+          "due": "2027-01-18",
+          "category": "Contact"
+        },
+        {
+          "id": "deai-basil",
+          "title": "Basil: review and submit employer reference",
+          "done": false,
+          "due": "2027-01-18",
+          "category": "Contact"
+        },
+        {
+          "id": "deai-audit",
+          "title": "Check final uploads and requirements",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "deai-submit",
+          "title": "Submit application",
+          "done": false,
+          "due": "2027-01-11",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "deai-admission",
+          "title": "Official 2027–2029 admission calendar",
+          "url": "https://deai.ulb.be/home/students/admission/"
+        }
+      ],
+      "programs": [],
+      "id": "deai",
+      "version": 2,
+      "updatedAt": "2026-10-27T17:30:13.222Z"
+    },
+    {
+      "title": "Paris-Saclay · DiPaQ / Eiffel",
+      "institution": "Université Paris-Saclay",
+      "country": "France",
+      "program": "M1 Distributed, Parallel and Quantum Computing (DiPaQ) → intended M2 DiPaC",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "2026-11-26",
+      "deadlineNote": "Thomas Galley's 27 October 2026 email asks for the dossier to Oguz Kaya BEFORE 26 November. Aim to send by 25 November.",
+      "nextStep": "Send the requested initial-assessment dossier to Oguz Kaya before 26 November; prepare the official ranking evidence and professional project.",
+      "notes": "Verified in the actual email thread on 27 October 2026: this is Université Paris-Saclay M1 DiPaQ, not IP Paris PDS. Thomas Galley replied after the 26 October enquiry and directed the initial dossier to Oguz Kaya, oguz.kaya@universite-paris-saclay.fr. Required: passport/ID; CV 1–2 pages with universities and relevant work dates (month/year); degrees; official ranking; all higher-education transcripts; English evidence; professional project 1–2 pages. External recommendation optional—Basil is an appropriate external supervisor. No assessment dossier submission or nomination confirmed.",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "ei-institution",
+          "title": "Identify Paris-Saclay DiPaQ, recipient and current deadline",
+          "done": true,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "ei-pass",
+          "title": "Passport / ID copy",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ei-cv",
+          "title": "CV with university and work dates, month/year",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ei-degree",
+          "title": "Awarded degree(s)",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ei-rank",
+          "title": "Official ranking or accepted alternative",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ei-transcript",
+          "title": "University transcripts from first year onward",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ei-english",
+          "title": "English proficiency evidence",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ei-plan",
+          "title": "Professional project, 1–2 pages",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ei-basil",
+          "title": "Optional external recommendation from Basil",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "ei-send",
+          "title": "Send assessment dossier to Oguz Kaya",
+          "done": false,
+          "due": "2026-11-25",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "dipaq-email",
+          "title": "Thomas's document request and deadline",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a17d89d0a119b3f"
+        },
+        {
+          "id": "dipaq-call",
+          "title": "Paris-Saclay Eiffel master's process",
+          "url": "https://www.universite-paris-saclay.fr/admission/bourses-et-aides-financieres/bourses-france-excellence-eiffel"
+        }
+      ],
+      "programs": [],
+      "id": "eiffel-initial-assessment",
+      "version": 2,
+      "updatedAt": "2026-10-27T17:30:11.587Z"
+    },
+    {
+      "title": "Maastricht · Brightlands",
+      "institution": "Maastricht University",
+      "country": "Netherlands",
+      "program": "MSc Systems Biology and Bioinformatics",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "2027-02-01",
+      "deadlineNote": "Scholarship: 1 February 2027, 23:59 CET. Separate admission-file deadline: 10 December 2026, 23:59 CET. Admission is tracked on its own card too.",
+      "nextStep": "Resubmit the requested admission documents by 10 December, then finish Brightlands documents and referee details before 1 February.",
+      "notes": "September 2027 Studielink application submitted. MyApplication showed fee tasks complete, other tasks open. Prior admission: September 2026. New letter and promised fee/selection handling need confirmation. Femke reply drafted; sending unconfirmed. Digital diploma/transcript certification is separate from ordinary scans.\n\nVerified 27 October: the follow-up to Femke was SENT 26 October and she REPLIED that requested documents must be resubmitted before she issues the new admission letter. The June promise covers handling-fee and selection exemptions. Official Brightlands call: admission file complete by 10 December 2026; scholarship by 1 February 2027, 23:59 CET. By scholarship deadline, registration requirements must be met except legal residence, tuition payment and hard-copy diploma. Only one UM scholarship application is permitted, with no replacement documents after submission.",
+      "pinned": true,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "um-studielink",
+          "title": "Submit September 2027 Studielink application",
+          "done": true,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "um-fee",
+          "title": "Handling-fee tasks shown completed in portal",
+          "done": true,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "um-follow",
+          "title": "Follow up with Femke and receive resubmission instructions",
+          "done": true,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "um-verify",
+          "title": "Arrange official digital diploma / transcript verification",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "um-uploads",
+          "title": "Complete remaining MyApplication uploads",
+          "done": false,
+          "due": "2026-12-10",
+          "category": "Task"
+        },
+        {
+          "id": "um-admission",
+          "title": "Receive renewed 2027 admission letter",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "um-scholar",
+          "title": "Check and submit Brightlands scholarship application",
+          "done": false,
+          "due": "2027-02-01",
+          "category": "Task"
+        },
+        {
+          "id": "um-brightlands-requirements",
+          "title": "Prepare scholarship CV, motivation, referee details and grade-scale evidence",
+          "done": false,
+          "due": "2027-02-01",
+          "category": "Document"
+        }
+      ],
+      "links": [
+        {
+          "id": "studielink",
+          "title": "Studielink",
+          "url": "https://www.studielink.nl/"
+        },
+        {
+          "id": "um",
+          "title": "Maastricht University",
+          "url": "https://www.maastrichtuniversity.nl/"
+        },
+        {
+          "id": "um-latest-mail",
+          "title": "Femke's 26 October reply",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a177829b3d36188"
+        },
+        {
+          "id": "um-brightlands",
+          "title": "Official Brightlands scholarship",
+          "url": "https://www.maastrichtuniversity.nl/studeren/toelating-inschrijving/financing-your-studies/scholarships/um-nl-brightlands-talent"
+        }
+      ],
+      "programs": [],
+      "id": "maastricht-brightlands",
+      "version": 2,
+      "updatedAt": "2026-10-27T17:30:10.019Z"
+    },
+    {
+      "title": "Maastricht · MSc admission",
+      "institution": "Maastricht University",
+      "country": "Netherlands",
+      "program": "MSc Systems Biology and Bioinformatics · September 2027",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "2026-12-10",
+      "deadlineNote": "Complete admission application by 10 December 2026, 23:59 CET to qualify for Brightlands. Scholarship submission itself is due 1 February 2027.",
+      "nextStep": "Resubmit the requested documents in MyApplication so Femke can issue the renewed admission letter.",
+      "notes": "Separate admission tracking for the existing Brightlands funding project. Studielink application for September 2027 is submitted. Femke's 25 June email promised handling-fee and selection exemptions; her 26 October response requires requested documents to be resubmitted before the new admission letter is issued. This does not confirm a renewed offer yet. Student number i6461253.",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "umad-stud",
+          "title": "Submit September 2027 Studielink application",
+          "done": true,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "umad-follow",
+          "title": "Follow up with Femke and receive instructions",
+          "done": true,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "umad-upload",
+          "title": "Resubmit all requested admission documents",
+          "done": false,
+          "due": "2026-12-10",
+          "category": "Document"
+        },
+        {
+          "id": "umad-letter",
+          "title": "Receive renewed 2027 admission letter",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        }
+      ],
+      "links": [
+        {
+          "id": "umad-email",
+          "title": "Femke's latest admissions instructions",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a177829b3d36188"
+        },
+        {
+          "id": "umad-dates",
+          "title": "Programme admission deadlines",
+          "url": "https://www.maastrichtuniversity.nl/education/master/programmes/systems-biology-and-bioinformatics/admission-requirements"
+        }
+      ],
+      "programs": [],
+      "id": "a6bef473-59c6-460c-97cb-f9eedc11dfd2",
+      "version": 1,
+      "updatedAt": "2026-10-27T17:28:41.588Z"
+    },
+    {
+      "title": "CNAM · Networks & IoT M2",
+      "institution": "Conservatoire national des arts et métiers · Paris",
+      "country": "France",
+      "program": "M2 Computer Networks and IoT Systems",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "2027-05-31",
+      "deadlineNote": "University-level deadline for visa applicants: 31 May 2027. An early route lists 28 February; confirm which applies.",
+      "nextStep": "Resolve direct-M2 equivalence and the in-person scholarship rule before finalising the application.",
+      "notes": "One of the six ORIGINAL France Excellence choices, explicitly retained by Nadim. This card tracks programme admission; funding is tracked separately under France Excellence. No admission application submission or offer is confirmed. A four-year degree is not automatic M1 equivalence; obtain an individual assessment. The published Paris course includes on-site and remote classes; clarify compatibility with the fully in-person scholarship requirement.",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "o5-entry",
+          "title": "Confirm 2027 entry requirements / course language",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "o5-letter",
+          "title": "Prepare tailored motivation letter and academic documents",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "o5-apply",
+          "title": "Submit programme admission application",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "official",
+          "title": "Official programme / admission information",
+          "url": "https://master.roc.cnam.fr/index.php/admission/"
+        }
+      ],
+      "programs": [],
+      "id": "6e0d4dea-6ffe-4d33-ab28-16d06782dcfb",
+      "version": 1,
+      "updatedAt": "2026-10-27T17:28:40.847Z"
+    },
+    {
+      "title": "UVSQ / Paris-Saclay · DataScale / Eiffel",
+      "institution": "Université de Versailles Saint-Quentin-en-Yvelines / Université Paris-Saclay",
+      "country": "France",
+      "program": "M1 DataScale → M2",
+      "cycle": "2027–2028",
+      "status": "Awaiting reply",
+      "deadline": "2026-11-26",
+      "deadlineNote": "Paris-Saclay's master Eiffel call requires contacting the programme lead before 26 November 2026; an earlier programme deadline may apply.",
+      "nextStep": "Await Professor Kedad's answer about Eiffel assessment, documents and French certification.",
+      "notes": "Enquiry with CV and academic records sent to zoubida.kedad@uvsq.fr on 26 October 2026. It explicitly acknowledged French instruction and asked the required proficiency and certification deadline. Interest is confirmed by the sent message; language eligibility, nomination and admission are not confirmed. This is distinct from DiPaQ within the Paris-Saclay umbrella. Central deadline source checked 27 October 2026.",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "data-enquiry",
+          "title": "Send personalised DataScale / Eiffel enquiry",
+          "done": true,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "data-reply",
+          "title": "Receive reply on French requirements and nomination",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "data-dossier",
+          "title": "Prepare programme-specific assessment documents",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        }
+      ],
+      "links": [
+        {
+          "id": "data-mail",
+          "title": "Sent DataScale enquiry",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a176cb5623cd7c4"
+        },
+        {
+          "id": "data-call",
+          "title": "Paris-Saclay Eiffel master's process",
+          "url": "https://www.universite-paris-saclay.fr/admission/bourses-et-aides-financieres/bourses-france-excellence-eiffel"
+        }
+      ],
+      "programs": [],
+      "id": "ee9e6543-4325-443e-9585-92c66876e07a",
+      "version": 1,
+      "updatedAt": "2026-10-27T17:28:34.435Z"
+    },
+    {
+      "title": "Sorbonne · SAR / Eiffel",
+      "institution": "Sorbonne Université",
+      "country": "France",
+      "program": "M1 Informatique · Systèmes et Applications Répartis (SAR)",
+      "cycle": "2027–2028",
+      "status": "Awaiting reply",
+      "deadline": "2026-11-23",
+      "deadlineNote": "Official Eiffel 2027/28 call says present the dossier BEFORE 23 November 2026. Aim for 22 November.",
+      "nextStep": "Get the Sciences Eiffel office's answer on SAR eligibility, documents and French / approved English pathway.",
+      "notes": "Personalised enquiry with CV, degree and transcripts sent on 26 October 2026 to sciences-dfve-bourse-eiffel@sorbonne-universite.fr. It asked about Eiffel nomination and the required French level/timing. No reply or admission is confirmed. SAR was the programme actually requested; do not silently replace it with DIGIT. Official campaign says contact faculty referents, not programme heads, before 23 November. Final Eiffel nomination can be through only one institution.",
+      "pinned": false,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "sor-enquiry",
+          "title": "Send faculty Eiffel enquiry and academic evidence",
+          "done": true,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "sor-language",
+          "title": "Resolve SAR language and nomination eligibility",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "sor-docs",
+          "title": "Prepare the requested programme-specific dossier",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "sor-send",
+          "title": "Present complete dossier to the faculty referent",
+          "done": false,
+          "due": "2026-11-22",
+          "category": "Task"
+        }
+      ],
+      "links": [
+        {
+          "id": "sor-mail",
+          "title": "Sent SAR / Eiffel enquiry",
+          "url": "https://mail.google.com/mail/u/?authuser=nadeemtnbaboun%40gmail.com#all/1a176cb576b9ea7b"
+        },
+        {
+          "id": "sor-call",
+          "title": "Official Eiffel 2027/28 campaign",
+          "url": "https://www.sorbonne-universite.fr/actualites/programme-de-bourses-france-excellence-eiffel-2027/2028"
+        }
+      ],
+      "programs": [],
+      "id": "789194cb-9fb1-42e1-95e8-56532be96d99",
+      "version": 1,
+      "updatedAt": "2026-10-27T17:28:33.534Z"
+    },
+    {
+      "title": "France Excellence",
+      "institution": "Consulate General of France in Jerusalem",
+      "country": "France",
+      "program": "Master's scholarship · six programme choices",
+      "cycle": "2027–2028",
+      "status": "Preparing",
+      "deadline": "2026-12-25",
+      "deadlineNote": "Official 2027–2028 call: 25 December 2026, 18:00 Jerusalem time.",
+      "nextStep": "Resolve programme eligibility questions, then settle the six choices and tailor the letters.",
+      "notes": "Original six retained. Expanded research complete; no replacements made. M2 prioritised, M1+M2 exceptional. Fully in-person study and proof of contact required. References optional. Nantes has priority for Al-Quds applicants. CNAM remote-class wording needs clarification. Seeded from our conversation; portal submission not confirmed.",
+      "pinned": true,
+      "archived": false,
+      "tasks": [
+        {
+          "id": "fe-research",
+          "title": "Profile and additional programme review prepared",
+          "done": true,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "fe-six",
+          "title": "Original six retained in working list",
+          "done": true,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "fe-contact",
+          "title": "Gather university replies / proof of contact",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "fe-nantes",
+          "title": "Ask Nantes about direct-M2 equivalence",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "fe-english",
+          "title": "Confirm SLCD and Clermont English-only pathways",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "fe-cnam",
+          "title": "Clarify CNAM teaching mode",
+          "done": false,
+          "due": "",
+          "category": "Contact"
+        },
+        {
+          "id": "fe-final",
+          "title": "Finalise six programme choices",
+          "done": false,
+          "due": "",
+          "category": "Task"
+        },
+        {
+          "id": "fe-cv",
+          "title": "Final two-page CV",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "fe-letter",
+          "title": "Tailor motivation letter",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        },
+        {
+          "id": "fe-submit",
+          "title": "Submit complete scholarship dossier",
+          "done": false,
+          "due": "2026-12-25",
+          "category": "Task"
+        },
+        {
+          "id": "5e47942b-f1d0-4ab5-8079-03ceb5f3a011",
+          "title": "Correct Swedish exchange GPA wording in reused CVs: 30 ECTS completed.",
+          "done": false,
+          "due": "",
+          "category": "Document"
+        }
+      ],
+      "links": [
+        {
+          "id": "call",
+          "title": "Official scholarship call",
+          "url": "https://www.alquds.edu/wp-content/uploads/2026/10/finalaac_france_excellence_jer_master_2027_en.docx"
+        }
+      ],
+      "programs": [
+        {
+          "id": "g1",
+          "name": "Grenoble — MoSIG → CCDI",
+          "level": "M1",
+          "status": "Original choice"
+        },
+        {
+          "id": "b1",
+          "name": "Besançon — Software and Systems Engineering",
+          "level": "M1",
+          "status": "Original choice"
+        },
+        {
+          "id": "l1",
+          "name": "Lille — Computer Sciences, English international",
+          "level": "M1",
+          "status": "Original choice"
+        },
+        {
+          "id": "g2",
+          "name": "Grenoble — MoSIG / CCDI",
+          "level": "M2",
+          "status": "Equivalence needed"
+        },
+        {
+          "id": "p2",
+          "name": "Pau — Industry 4.0, IT Digital Transformation (Anglet)",
+          "level": "M2",
+          "status": "Equivalence needed"
+        },
+        {
+          "id": "c2",
+          "name": "CNAM — Computer Networks and IoT Systems",
+          "level": "M2",
+          "status": "Teaching mode to clarify"
+        }
+      ],
+      "id": "france-excellence",
+      "version": 2,
+      "updatedAt": "2026-10-27T17:08:17.123Z"
+    }
+  ],
+  "activity": [
+    {
+      "id": "2619ac96-5ba6-4e16-a966-9702fa89447c",
+      "projectId": "eurecom-eiffel",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-30T13:45:11.277Z"
+    },
+    {
+      "id": "dc859413-dc19-4b27-b13e-55d32ffc32f0",
+      "projectId": "eurecom-eiffel",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-30T13:39:24.638Z"
+    },
+    {
+      "id": "cd0a70f7-f058-42bd-af25-42a1c79f94be",
+      "projectId": "rennes-eiffel",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-30T13:38:08.007Z"
+    },
+    {
+      "id": "5508ef2c-6e72-43e1-b726-32df3d78f924",
+      "projectId": "rennes-eiffel",
+      "message": "Edited task: Outline of the chosen diploma / training mockup",
+      "source": "You",
+      "createdAt": "2026-10-30T10:18:11.996Z"
+    },
+    {
+      "id": "8d8db159-77e9-47fc-b1f3-c1c1c6da6a02",
+      "projectId": "rennes-eiffel",
+      "message": "Reopened: Outline of the chosen diploma / training mockup",
+      "source": "You",
+      "createdAt": "2026-10-30T10:17:54.815Z"
+    },
+    {
+      "id": "803162f6-db8c-4b72-a94a-844c3c202954",
+      "projectId": "rennes-eiffel",
+      "message": "Completed: Outline of the chosen diploma / training mockup",
+      "source": "You",
+      "createdAt": "2026-10-30T10:17:52.124Z"
+    },
+    {
+      "id": "6465538a-8ea7-401a-9e5b-8cfb479837a6",
+      "projectId": "rennes-eiffel",
+      "message": "Completed: Upload final tailored CV (1–2 pages; replace earlier version)",
+      "source": "You",
+      "createdAt": "2026-10-30T10:17:44.796Z"
+    },
+    {
+      "id": "3e7f66f7-405c-455e-a314-fa594a3ddc51",
+      "projectId": "rennes-eiffel",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-30T09:04:56.496Z"
+    },
+    {
+      "id": "01b7fc94-60c5-4b77-96a1-f65fe60a4d0d",
+      "projectId": "49a33fac-826f-4f66-8821-0235fb0f96ed",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T19:51:36.883Z"
+    },
+    {
+      "id": "d26f335c-b139-44dd-8cf6-e14d82074cb2",
+      "projectId": "e4b7d274-6642-4136-a2c8-96d6d5983241",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T19:51:34.951Z"
+    },
+    {
+      "id": "1e01f492-0b4a-4baf-b752-158a0e011489",
+      "projectId": "14a9586f-1dfd-43a4-95ba-78abb88e9f1e",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T19:51:33.255Z"
+    },
+    {
+      "id": "ab0c433e-c6a4-49ec-9b4d-e112463ececa",
+      "projectId": "22a73c3c-43f8-4b87-b5db-73cc9b1c861d",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T19:51:31.251Z"
+    },
+    {
+      "id": "238aea36-0d5b-4491-83c6-a8a976dc21ac",
+      "projectId": "4aaedc77-391d-481c-9d7a-7fa34357e8df",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T19:51:29.794Z"
+    },
+    {
+      "id": "43a23dba-78d5-4de0-b3c4-5dbf06783cd8",
+      "projectId": "a2931ce6-2142-400c-bb8e-dadb3e7755e3",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T19:51:28.083Z"
+    },
+    {
+      "id": "02a9c530-c8b4-4d06-9e48-c1f0981e5b6b",
+      "projectId": "26f32d5b-143d-4f43-8d39-65081f7621b6",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T19:51:26.427Z"
+    },
+    {
+      "id": "4ae3d54e-90e7-4cf0-82ef-456b17feddb8",
+      "projectId": "421ac5fb-321d-4745-b38d-69496053f2f8",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T19:51:24.918Z"
+    },
+    {
+      "id": "a2c747b8-db22-432f-bcb7-11cf22f7cc05",
+      "projectId": "90226130-322d-4bfd-8b0b-298bda199cd5",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T19:51:23.391Z"
+    },
+    {
+      "id": "8899f346-655e-4e23-a53e-43e01d953e9b",
+      "projectId": "glasgow-palestine",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T19:51:21.941Z"
+    },
+    {
+      "id": "19ab498b-ccc0-49aa-97d7-5bf35a50a790",
+      "projectId": "1a82c823-09f2-4691-a6be-6bb63383cff8",
+      "message": "Completed: Upload transcript and verify academic entries",
+      "source": "You",
+      "createdAt": "2026-10-29T18:13:57.739Z"
+    },
+    {
+      "id": "c6b06832-e25f-46aa-b5aa-15c05adedaa8",
+      "projectId": "1a82c823-09f2-4691-a6be-6bb63383cff8",
+      "message": "Completed: Correct CV result range to 9.6–21.1%, check PDF and upload manually",
+      "source": "You",
+      "createdAt": "2026-10-29T18:13:56.414Z"
+    },
+    {
+      "id": "317b0bc8-5493-4446-be77-08a363f2bae0",
+      "projectId": "1a82c823-09f2-4691-a6be-6bb63383cff8",
+      "message": "Completed: Check SOP PDF and faculty-contact wording; upload",
+      "source": "You",
+      "createdAt": "2026-10-29T18:13:55.138Z"
+    },
+    {
+      "id": "f3143bd1-3f6d-49ae-a295-96d1d7fe5afe",
+      "projectId": "1a82c823-09f2-4691-a6be-6bb63383cff8",
+      "message": "Completed: Check scheduled faculty email delivery/replies; correct contact field",
+      "source": "You",
+      "createdAt": "2026-10-29T18:13:53.988Z"
+    },
+    {
+      "id": "5735e030-9174-4256-89ec-7619429ec81e",
+      "projectId": "1a82c823-09f2-4691-a6be-6bb63383cff8",
+      "message": "Completed: If accepted, confirm stipend, payment timing, housing, travel and visa fees",
+      "source": "You",
+      "createdAt": "2026-10-29T18:13:52.267Z"
+    },
+    {
+      "id": "63c73a28-2f12-4441-b4d1-92366984bfa7",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Completed: Clarification only — 11th/12th-grade reports appear on general checklist; Heidi waived Tawjihi but did not explicitly mention these",
+      "source": "You",
+      "createdAt": "2026-10-29T13:09:41.055Z"
+    },
+    {
+      "id": "0bcffcc9-58d2-4f8a-8932-511647557638",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Completed: Optional follow-up — Confirm funding start date if needed; not a submission requirement",
+      "source": "You",
+      "createdAt": "2026-10-29T13:09:34.284Z"
+    },
+    {
+      "id": "7907178b-bcdc-41f9-95b2-62a9d2f9f145",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Completed: In Progress — University confirmation of master’s standard duration",
+      "source": "You",
+      "createdAt": "2026-10-29T13:09:22.988Z"
+    },
+    {
+      "id": "61306b7b-9c89-46a9-89d8-c74906d9e73b",
+      "projectId": "1a82c823-09f2-4691-a6be-6bb63383cff8",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T10:30:04.770Z"
+    },
+    {
+      "id": "b0ab01ea-475b-4085-b498-9616cb2ba64d",
+      "projectId": "1a82c823-09f2-4691-a6be-6bb63383cff8",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T10:18:14.543Z"
+    },
+    {
+      "id": "806e995e-288d-49a0-ad9e-e7e7086ba161",
+      "projectId": "1a82c823-09f2-4691-a6be-6bb63383cff8",
+      "message": "Added scholarship",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T09:06:24.982Z"
+    },
+    {
+      "id": "2c00fe8f-4de8-4482-beca-46c53239c82e",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Updated details",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T08:58:28.678Z"
+    },
+    {
+      "id": "9f13260f-2095-4f65-83d2-7725201bdaf1",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added note",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T07:53:41.324Z"
+    },
+    {
+      "id": "0ae0d2b5-d6b1-42c5-ac48-37e1cc033bce",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Reopened: To Do — Add 11th- and 12th-grade school reports, or confirm the foundation accepts the existing Tawjihi certificate alone",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T07:53:39.259Z"
+    },
+    {
+      "id": "5f9f7b28-49f0-415d-b62d-679de9dd6e42",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Completed: To Do — Add birth and baptism certificates, or obtain foundation confirmation that previously submitted copies suffice",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T07:53:38.058Z"
+    },
+    {
+      "id": "5b0c93f5-8fbe-4294-a982-919e6a58df1e",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added note",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T07:49:44.225Z"
+    },
+    {
+      "id": "9972ee3b-43c6-4852-86f9-4088b20d4e3c",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added task: To Do — Add 11th- and 12th-grade school reports, or confirm the foundation accepts the existing Tawjihi certificate alone",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T07:49:42.930Z"
+    },
+    {
+      "id": "b10ad313-7c8a-46a9-bc2a-41c6b6f08e90",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added task: To Do — Add birth and baptism certificates, or obtain foundation confirmation that previously submitted copies suffice",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-29T07:49:41.599Z"
+    },
+    {
+      "id": "feded642-17df-48b6-a58d-71702c6aa6af",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added note",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T18:56:22.013Z"
+    },
+    {
+      "id": "a3182b3b-6697-4e23-b310-307e93b4bd69",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added note",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T18:14:07.681Z"
+    },
+    {
+      "id": "2e60ed82-63be-425b-98fb-61d5d88258de",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Completed: Done — Father’s income evidence: salary slips provided and confirmed by Nadim",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T18:07:50.342Z"
+    },
+    {
+      "id": "70ae7847-0bcf-476c-b4ce-bdb4b3132a49",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added note",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T17:23:30.693Z"
+    },
+    {
+      "id": "6de1d890-5e5d-4341-b146-71c0130d325b",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Completed: In Progress — Financial questionnaire: official signature and stamp",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T17:23:29.413Z"
+    },
+    {
+      "id": "11773279-e4ed-4d0e-8b20-aab16ca4115e",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Reopened: In Progress — Application: final completion, date and signature",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T17:23:28.136Z"
+    },
+    {
+      "id": "1f5a943d-e2ee-4779-a609-248db1a89587",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Completed: In Progress — Father’s income confirmation; Nadim’s salary slips done",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T17:23:26.872Z"
+    },
+    {
+      "id": "66abd22e-4e45-47f4-8e50-90df2fcfd0b7",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Reopened: To Do — Confirm acceptance of pending admission and clarify the February–April funding gap",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T17:19:53.869Z"
+    },
+    {
+      "id": "600e0c99-d8d5-4e50-bb50-b242e39acf92",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Reopened: To Do — Obtain university confirmation of the program’s standard duration",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T17:19:52.657Z"
+    },
+    {
+      "id": "1cd26f6a-0120-40fe-9149-0cd6d5c81629",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Reopened: To Do — Provide unconditional admission/enrollment once available",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T17:19:51.359Z"
+    },
+    {
+      "id": "f4fd7a86-ab28-4e86-ab62-8b5aedb3f55e",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Reopened: In Progress — Financial evidence: father’s income confirmation and employment/salary certificate",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T17:19:49.537Z"
+    },
+    {
+      "id": "0fb9f205-fd9d-45ec-a42c-a4b350291978",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Completed: In Progress — Volunteering certificate: draft prepared; date, representative approval, signature and stamp pending",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T17:19:47.984Z"
+    },
+    {
+      "id": "38bb50ca-bc87-4c65-a30f-d2db492cf6e6",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Completed: In Progress — Three recommendation letters: Nael, Frères and municipality drafts prepared; recommender review and signatures pending",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T17:19:46.744Z"
+    },
+    {
+      "id": "2d3b359c-db95-4d49-9646-be949984d5f5",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Completed: To Do — Add bachelor’s degree, final transcript and school certificates to the submission folder",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T07:44:38.629Z"
+    },
+    {
+      "id": "ae4385cf-c411-4140-a88e-0db4760c33a5",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Reopened: To Do — Obtain official signature and stamp on the financial questionnaire",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T07:44:37.201Z"
+    },
+    {
+      "id": "da889f12-7d36-4cd4-8ebc-97662ce179fd",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Reopened: To Do — Sign and date the completed application",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T07:44:36.021Z"
+    },
+    {
+      "id": "07eb3eed-c8ca-4333-88dd-44ee9bec85b3",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Reopened: To Do — Get the volunteering certificate dated, signed and stamped",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-28T07:43:06.007Z"
+    },
+    {
+      "id": "26c6310f-6685-4448-bf4f-52a293233650",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Reopened: In Progress — Three recommendation letters: Nael and Frères drafts prepared; final reviewer approval and third letter pending",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-27T21:24:57.512Z"
+    },
+    {
+      "id": "2a6b2da2-994d-47c6-b43a-215e0932441f",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added note",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-27T21:18:44.438Z"
+    },
+    {
+      "id": "a77ec2e9-27f6-4b18-988e-d9a34c4be1a9",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added note",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-27T21:18:01.511Z"
+    },
+    {
+      "id": "4e47b318-1e18-4800-8e20-1e2f81d2b636",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added note",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-27T21:10:40.982Z"
+    },
+    {
+      "id": "24276117-5556-463c-b0e4-d545cfa28056",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added note",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-27T20:46:13.767Z"
+    },
+    {
+      "id": "59aa822f-acc6-47dd-825c-e0590eb1a66c",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Added note",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-27T20:44:08.298Z"
+    },
+    {
+      "id": "d927811e-e9c5-4f78-8ba5-e3ff826462a2",
+      "projectId": "d0b7f6ee-a60d-4cfc-891f-f08091b4951d",
+      "message": "Reopened: In Progress — Three recommendation letters: Nael’s Gerda von Mach draft prepared; review/signature and remaining letters pending",
+      "source": "ChatGPT",
+      "createdAt": "2026-10-27T20:44:06.369Z"
+    }
+  ]
+}
