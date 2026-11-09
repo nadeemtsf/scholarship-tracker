@@ -1,7 +1,8 @@
 import {listProjects,getProject,runCommand,StoreError} from "@/lib/store";
+import {statusOptions} from "@/lib/model";
 import {ZodError} from "zod";
 export const dynamic="force-dynamic";
-const str={type:"string"},integer={type:"integer"},statuses=["Preparing","Awaiting reply","Submitted","Accepted","Researching","On hold","Not selected"];
+const str={type:"string"},integer={type:"integer"},statuses=[...statusOptions];
 const extraFields={
  cycle:str,pinned:{type:"boolean"},
  tasks:{type:"array",items:{type:"object",properties:{id:str,title:str,done:{type:"boolean"},due:str,category:{type:"string",enum:["Task","Document","Contact"]}},required:["id","title"],additionalProperties:false}},

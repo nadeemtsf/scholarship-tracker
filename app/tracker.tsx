@@ -4,7 +4,7 @@ import {Plus,Search,ChevronRight,ChevronLeft,ArrowUpRight,Check,CheckCircle2,Clo
 import {statusOptions,uid,type Project,type Task,type Activity} from "@/lib/model";
 type Tab="Applications"|"Deadlines"|"Documents";
 const day=(v:string)=>v?new Date(v+"T12:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"}):"Not confirmed";
-const tone=(s:string)=>s==="Accepted"?"green":s==="Awaiting reply"?"orange":s==="Submitted"?"blue":s==="On hold"||s==="Not selected"?"grey":s==="Researching"?"violet":"blue";
+const tone=(s:string)=>s==="Accepted"?"green":s==="Awaiting reply"?"orange":s==="Submitted"?"blue":s==="On hold"||s==="Not selected"?"grey":s==="Researching"?"violet":s==="Deadline Missed"?"red":"blue";
 const badge=(s:string)=><span className={"badge "+tone(s)}><i/>{s}</span>;
 const newDraft={title:"",institution:"",country:"",program:"",cycle:"2027–2028",status:"Preparing",deadline:"",deadlineNote:"",nextStep:"",notes:"",pinned:false};
 export default function Tracker(){
@@ -25,9 +25,10 @@ export default function Tracker(){
  async function patch(p:Project,fields:any){return command({action:"edit",id:p.id,expectedVersion:p.version,patch:fields});}
  function edit(p?:Project){setDraft(p?{...p}:newDraft);setEditor(p?{id:p.id,version:p.version}:{});}
  async function saveProject(e:FormEvent){e.preventDefault();const result=await command(editor?.id?{action:"edit",id:editor.id,expectedVersion:editor.version,patch:draft}:{action:"create",data:draft});if(result){setEditor(null);setToast(editor?.id?"Changes saved":"Scholarship added");if(!editor?.id)setSelected(result.id);}}
- const visible=useMemo(()=>projects.filter(p=>filter==="Archived"?p.archived:!p.archived).filter(p=>filter==="Research"?p.status==="Researching":filter==="Waiting"?p.status==="Awaiting reply":filter==="Active"?!["Researching","Not selected","On hold"].includes(p.status):true).filter(p=>[p.title,p.institution,p.program,p.country,p.nextStep].join(" ").toLowerCase().includes(query.toLowerCase())).sort((a,b)=>Number(b.pinned)-Number(a.pinned)||((a.deadline||"9999").localeCompare(b.deadline||"9999"))||a.title.localeCompare(b.title)),[projects,filter,query]);
- const active=projects.filter(p=>!p.archived&&!['Researching','On hold','Not selected'].includes(p.status));
- const upcoming=projects.filter(p=>!p.archived&&p.deadline&&!["Submitted","Accepted","Not selected"].includes(p.status)).sort((a,b)=>a.deadline.localeCompare(b.deadline));
+ const visible=useMemo(()=>projects.filter(p=>filter==="Archived"?p.archived:!p.archived).filter(p=>filter==="Research"?p.status==="Researching":filter==="Waiting"?p.status==="Awaiting reply":filter==="Active"?!["Researching","Not selected","On hold","Deadline Missed"].includes(p.status):true).filter(p=>[p.title,p.institution,p.program,p.country,p.nextStep].join(" ").toLowerCase().includes(query.toLowerCase())).sort((a,b)=>Number(b.pinned)-Number(a.pinned)||((a.deadline||"9999").localeCompare(b.deadline||"9999"))||a.title.localeCompare(b.title)),[projects,filter,query]);
+ const active=projects.filter(p=>!p.archived&&!["Researching","On hold","Not selected","Deadline Missed"].includes(p.status));
+ const today=(()=>{const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;})();
+ const upcoming=projects.filter(p=>!p.archived&&p.deadline&&p.deadline>=today&&!["Awaiting reply","Submitted","Accepted","On hold","Not selected","Deadline Missed"].includes(p.status)).sort((a,b)=>a.deadline.localeCompare(b.deadline));
  const documents=visible.flatMap(p=>p.tasks.filter(t=>t.category==="Document").map(t=>({p,t})));
  const done=projects.reduce((n,p)=>n+p.tasks.filter(t=>t.done).length,0);
  function exportData(){const blob=new Blob([JSON.stringify({exportedAt:new Date().toISOString(),projects,activity},null,2)],{type:"application/json"}),u=URL.createObjectURL(blob),a=document.createElement("a");a.href=u;a.download="scholarships-backup-"+new Date().toISOString().slice(0,10)+".json";a.click();URL.revokeObjectURL(u);setToast("Backup downloaded");}
