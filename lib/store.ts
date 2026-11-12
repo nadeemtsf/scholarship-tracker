@@ -2,6 +2,7 @@ import {mkdir,readFile,writeFile} from "node:fs/promises";
 import {join} from "node:path";
 import {projectFields,taskSchema,uid,type Project,type Activity} from "./model";
 import {seedProjects} from "./seed";
+import {z} from "zod";
 type State={projects:Project[];activity:Activity[]};
 const dataDir=process.env.DATA_DIR||join(process.cwd(),".data");
 const dataFile=join(dataDir,"workspace.json");
@@ -10,6 +11,15 @@ export class StoreError extends Error{constructor(message:string,public status=4
 async function load():Promise<State>{if(statePromise)return statePromise;statePromise=(async()=>{await mkdir(dataDir,{recursive:true});try{return JSON.parse(await readFile(dataFile,"utf8")) as State;}catch{const now=new Date().toISOString();const projects=seedProjects.map(({id,...p})=>({...p,id,version:1,updatedAt:now}));const initial={projects,activity:[]};await writeFile(dataFile,JSON.stringify(initial),"utf8");return initial;}})();return statePromise;}
 async function save(state:State){await mkdir(dataDir,{recursive:true});await writeFile(dataFile,JSON.stringify(state),"utf8");statePromise=Promise.resolve(state);}
 export async function ensureSeed(){await load();}
+// Recovery after Render's ephemeral filesystem is replaced. Never overwrite a
+// workspace with edits; the private bearer key is checked by the HTTP route.
+export async function restoreFreshWorkspace(input:unknown){
+ const backup=z.object({projects:z.array(projectFields.extend({id:z.string().min(1).max(100),version:z.number().int().positive(),updatedAt:z.string().datetime()})).min(1).max(1000),activity:z.array(z.object({id:z.string().max(100),projectId:z.string().max(100),message:z.string().max(500),source:z.string().max(100),createdAt:z.string().datetime()})).max(10000)}).parse(input);
+ if(new Set(backup.projects.map(p=>p.id)).size!==backup.projects.length)throw new StoreError("Duplicate record IDs.");
+ const current=await load();
+ if(current.activity.length||current.projects.some(p=>p.version!==1))throw new StoreError("Restore refused: workspace already has edits.",409);
+ await save(backup);return {restored:backup.projects.length};
+}
 export async function listProjects(){return(await load()).projects.sort((a,b)=>b.updatedAt.localeCompare(a.updatedAt));}
 export async function getProject(id:string){const p=(await load()).projects.find(x=>x.id===id);if(!p)throw new StoreError("Scholarship not found.",404);return p;}
 export async function getActivity(){return(await load()).activity.slice().sort((a,b)=>b.createdAt.localeCompare(a.createdAt)).slice(0,60);}

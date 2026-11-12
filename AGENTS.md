@@ -1,14 +1,18 @@
 # Scholarship tracker
 
-Private Site: appgprj_6ae0d5aa151c8191991c35e2decb3a3d.
-Source: this directory. Hosting is controlled by .openai/hosting.json; never create a replacement Site for updates.
+Live tracker: https://scholarship-tracker-r6s4.onrender.com/ (Render).
+The old Sites project ID in .openai/hosting.json is historical; do not create a replacement Site or change hosting for routine record updates.
 
-For progress updates, use the published Site's tools (list_scholarships, get_scholarship, update_task, update_scholarship, add_note). Read compact status/version first and update only relevant fields. This updates shared D1 records directly without editing source, redeploying or reading every file. On a version conflict, reread and preserve the user's edits.
+Use the `scholarship_tracker` MCP connection for progress updates. Do not open the browser, read source, or redeploy to edit application records.
+1. `list_scholarships(query=...)` finds compact summaries and current versions. Use status/limit/offset when useful; default limit is 20, maximum 50. Include archived records only when needed.
+2. `get_scholarship(id, fields=[...])` returns just the needed fields plus id/version. For task edits request tasks; avoid full notes unless needed.
+3. Use add_note, add_task, update_task, or update_scholarship to change only confirmed fields. Use the most recent returned version for consecutive edits. On conflicts, reread and preserve other edits. Write responses are compact acknowledgements.
+These tools modify live records directly. They do not rebuild the site or send applications/emails.
 
-If tools are absent, get_site(include_mcp_connection=true) supplies the Site plugin connection. Use Sites' supported connection flow. Do not invent credentials or make the Site public to enable updates.
+Render MCP uses a dedicated random bearer key. Only its SHA-256 fingerprint is committed in mcp-authorized-keys.json. An optional TRACKER_MCP_TOKEN_SHA256 environment variable overrides that list (comma-separated hashes). Never commit the bearer key, credentials or live backups. Browser cookies do not authenticate MCP calls. Sites dispatch authentication is not used on Render.
 
-lib/seed.ts is first-run seed only, not live state. Never edit seeds to record progress after first deployment. Routine deployments preserve D1 records. Never reset the database, reseed edited records or change applied migrations. Schema changes require new Drizzle migrations.
+IMPORTANT: Render currently runs on free compute with an ephemeral filesystem. lib/store.ts writes .data/workspace.json. Redeploys/restarts may lose runtime edits. Before any deployment, save a fresh private JSON backup; after deployment, restore it through the bearer-protected /api/mcp-restore endpoint BEFORE edits resume. Restoration validates the backup and refuses any workspace with activity or versions above 1. Persistent storage is still required to survive unattended restarts. Never reset or reseed live edited records, or edit lib/seed.ts to record progress.
 
 Use only observed/confirmed progress. Drafted is different from signed, uploaded, submitted, admitted or funded. Unknown deadlines stay unconfirmed. The original six France Excellence programme choices remain until the user changes them. A fact becoming clear is permission to maintain the tracker, not permission to send emails or submit applications.
 
-Source and website are separate from personal records. Do not commit credentials or export the production database to source control. The website is owner-private; preserve this audience. Never compile .text files.
+Source and website are separate from personal records. Do not commit credentials or export the production database to source control. The website is password-protected; preserve private access. Never compile .text files.
